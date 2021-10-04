@@ -1,0 +1,27 @@
+,Site,Latitude,Longitude,Type,Record,Length,References,Charcoal
+1,"Gilbert River Delta, QLD",-16.55,141.27,Fluvial,Fluvial,85,"Nanson et al., 1991",0
+2,Lake Carpentaria GC2,-12.52,140.35,lacustrine,Lake,36,"Torgersen et al., 1985, 1988",0
+3,Lake Carpentaria MD32,-12.3,139.97,lacustrine,Lake,130,"Chivas et al., 2001; Reeves et al., 2008; Devriendt, 2011",0
+4,Carpentaria dune field,-13.7,136.2,Dune,Dune,18,"Lees et al., 1990; Lees and Lu, 1991, 1992",0
+5,"Four Mile Billabong, NT",-13.85,136.78,swamp,Pollen,10,"Shulmeister and Lees, 1995",1
+6,"Lynch's Crater, QLD",-17.37,145.7,lacustrine,Pollen,234.75,"Kershaw, 1981; Turney et al., 2006; Kershaw et al., 2007",1
+7,"Lake Walala, NT",-15.68,137.03,swamp,Pollen,10,"Prebble et al., 2005",1
+8,"Three Quarter Mile Lake, QLD",-12.5,143,lacustrine,Pollen,8.3,"Luly et al., 2006",1
+9,ODP820,-16.63,146.3,marine,Pollen,250,"Moss and Kershaw, 2000; 2007",1
+10,"Badu, Torres Strait",-10.12,142.17,swamp,Pollen,8.5,"Rowe, 2007",1
+11,"Mua, Torres Strait",-10.18,142.25,swamp,Pollen,6,"Rowe, 2007",1
+12,Argan Swamp,-10.05,142.06,coastal,"macro, sieved",5.52,"Rowe, 2007",1
+13,Badu 15,-10.06,142.09,terrestrial,"macro, sieved",9," Rowe, 2007",1
+14,Bar20,-10.1,142.12,coastal,"macro, sieved",2.83,"Rowe, 2007",1
+15,Boigu Gawat Core 1,-10.1,142.14,coastal,"macro, sieved",4.57,"Rowe, 2007; Rowe, 2015",1
+16,Boigu Gawat Core 2,-10.1,142.14,coastal,"macro, sieved",13.82,"Rowe, 2007; Rowe, 2015",1
+17,Talita Kupai,-10.1,142.12,coastal,"macro, sieved",2.41,"Rowe, 2006a",1
+18,Tiam Point,-10.12,142.18,coastal,"micro, pollen slide",7.7,"Rowe, 2007",1
+19,Zurath Islet,-10.16,142.06,coastal,"macro, sieved",6.5,"Rowe, 2007",1
+20,Waruid,-10.4,142.09,coastal,"macro, sieved",6,"Rowe, 2007",1
+21,Lake Euramoo,-17.1599,145.6286,lacustrine,"macro, sieved",23.48,"Haberle, 2005",1
+22,Lynchs Crater (holocene core),-17.3667,145.7,lacustrine,"micro, pollen slide",7.39,"Kershaw, 1983",1
+23,Big Willum,-12.649294,141.84699,lacustrine,Lake,8,Stevenson 2015,1
+24,Isabella Swamp,-15.421267,144.948585,swamp,Swamp,9.2,Stephens and Head 1995,1
+25,Witherspoon Swamp,-17.49,145.24,swamp,Swamp,7.9,Moss 2012,1
+26,Bromfield Swamp,-17.2244,145.3227,swamp,Swamp,37,Burrows 2014; Burrows 2016,1

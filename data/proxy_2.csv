@@ -1,0 +1,12 @@
+Process,Type of proxy,Proxy,Advantages,Disadvantages
+Lake level,Carbonate-based,Ostracods,"Widely used, reliable",Not always available
+Lake level,Silica based,Diatoms,"Widely used, reliable",Not available in alkaline lakes
+Lake level,Silica based,Sponge spicules,Present in a broad range of environmental settings,Relationship with palaeohydrological factors is not well understood
+Lake level,Sedimentological,Seismic,Very informative,"Mostly useful in large, deep lakes"
+Lake level,Sedimentological,Organic matter,"Easy to analyse, high availability",Sources of organic matter are well known
+Lake level,Sedimentological,Cellulose,Direct and quantitative reconstructions of palaeowater isotopic composition ,Complex isolation
+"Precipitation, seasonality changes and hydroclimate",Biological,Pollen,Palynology is well developed,Transfer functions are not always available
+"Precipitation, seasonality changes and hydroclimate",Biological,Chrominoids,Well-developed technique,"Time consuming, changes of temperature are not expected in the tropics"
+"Precipitation, seasonality changes and hydroclimate",Geochemistry,XRF,"Fast, easy to perform",Interpretation is complex
+"Precipitation, seasonality changes and hydroclimate",Geochemistry,Peat humification ,Direct correlation with water cycles,"Limited to peats, most developed in temperate areas"
+"Precipitation, seasonality changes and hydroclimate",Compound specific isotopic analyses,Hydrogen isotope composition of plant wax lipids,found in almost all sedimentary environments that receive some terrigenous input ,Many factors can influence the isotopic signature

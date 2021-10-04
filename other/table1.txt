@@ -1,0 +1,6 @@
+Depth (cm), Ti, Si, Fe, Description
+0-43, Low with one abrupt fluctuation, High, Low, 2.5 YR 4/6 Dark silty peat
+43-67, High to middle, Middle to high, High, 5 YR 4/4 Silty clay
+67-74, Decreasing tendency, Very low, High, 7.5 YR 4/3 thinly stratified lenses (reddish bands)
+74-135, High, Fluctuations between low and middle counts, High, 7.5 YR 4/3 Silty clay
+135-172, High, Low, High, 5YR 5/8 Silty clay with gravel

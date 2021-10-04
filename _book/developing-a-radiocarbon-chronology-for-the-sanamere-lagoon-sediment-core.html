@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 5 Developing a radiocarbon chronology for the Sanamere Lagoon sediment core | PhD</title>
+  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 5 Developing a radiocarbon chronology for the Sanamere Lagoon sediment core | PhD" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 5 Developing a radiocarbon chronology for the Sanamere Lagoon sediment core | PhD" />
+  
+  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
+The HTML output format for this example is bookdown::gitbook,
+set in the _output.yml file.</p>" />
+  
+
+<meta name="author" content="Maria Rivera Araya" />
+
+
+<meta name="date" content="2021-10-03" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="sedimentology-and-stratigraphy.html"/>
+
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Thesis</a></li>
+<li class="chapter" data-level="" data-path="acknowledgements.html"><a href="acknowledgements.html"><i class="fa fa-check"></i>Acknowledgements</a></li>
+<li class="chapter" data-level="" data-path="statement-of-the-contributions-of-others.html"><a href="statement-of-the-contributions-of-others.html"><i class="fa fa-check"></i>Statement of the Contributions of Others</a></li>
+<li class="chapter" data-level="" data-path="abstract.html"><a href="abstract.html"><i class="fa fa-check"></i>Abstract</a></li>
+<li class="chapter" data-level="2" data-path="introduction-and-aims.html"><a href="introduction-and-aims.html"><i class="fa fa-check"></i><b>2</b> Introduction and aims</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="introduction-and-aims.html"><a href="introduction-and-aims.html#introduction"><i class="fa fa-check"></i><b>2.1</b> Introduction</a></li>
+<li class="chapter" data-level="2.2" data-path="introduction-and-aims.html"><a href="introduction-and-aims.html#thesis-aims"><i class="fa fa-check"></i><b>2.2</b> Thesis aims</a>
+<ul>
+<li class="chapter" data-level="2.2.1" data-path="introduction-and-aims.html"><a href="introduction-and-aims.html#geochronology"><i class="fa fa-check"></i><b>2.2.1</b> Geochronology</a></li>
+<li class="chapter" data-level="2.2.2" data-path="introduction-and-aims.html"><a href="introduction-and-aims.html#environmental-change-and-palaeohydrology"><i class="fa fa-check"></i><b>2.2.2</b> Environmental change and palaeohydrology</a></li>
+</ul></li>
+<li class="chapter" data-level="2.3" data-path="introduction-and-aims.html"><a href="introduction-and-aims.html#organization-of-the-thesis"><i class="fa fa-check"></i><b>2.3</b> Organization of the Thesis</a></li>
+<li class="chapter" data-level="2.4" data-path="introduction-and-aims.html"><a href="introduction-and-aims.html#chapter-1-summary"><i class="fa fa-check"></i><b>2.4</b> Chapter 1 summary</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="background-and-methods.html"><a href="background-and-methods.html"><i class="fa fa-check"></i><b>3</b> Background and methods</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="background-and-methods.html"><a href="background-and-methods.html#study-area"><i class="fa fa-check"></i><b>3.1</b> Study area</a></li>
+<li class="chapter" data-level="3.2" data-path="background-and-methods.html"><a href="background-and-methods.html#study-site"><i class="fa fa-check"></i><b>3.2</b> Study site</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="background-and-methods.html"><a href="background-and-methods.html#geology-and-lake-formation"><i class="fa fa-check"></i><b>3.2.1</b> Geology and lake formation</a></li>
+<li class="chapter" data-level="3.2.2" data-path="background-and-methods.html"><a href="background-and-methods.html#veg"><i class="fa fa-check"></i><b>3.2.2</b> Vegetation</a></li>
+<li class="chapter" data-level="3.2.3" data-path="background-and-methods.html"><a href="background-and-methods.html#soils"><i class="fa fa-check"></i><b>3.2.3</b> Soils</a></li>
+<li class="chapter" data-level="3.2.4" data-path="background-and-methods.html"><a href="background-and-methods.html#fire"><i class="fa fa-check"></i><b>3.2.4</b> Fire</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="background-and-methods.html"><a href="background-and-methods.html#climatic-context"><i class="fa fa-check"></i><b>3.3</b> Climatic context</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="background-and-methods.html"><a href="background-and-methods.html#modern-climate"><i class="fa fa-check"></i><b>3.3.1</b> Modern climate</a></li>
+<li class="chapter" data-level="3.3.2" data-path="background-and-methods.html"><a href="background-and-methods.html#pastclimate"><i class="fa fa-check"></i><b>3.3.2</b> Past climate, vegetation and fire</a></li>
+<li class="chapter" data-level="3.3.3" data-path="background-and-methods.html"><a href="background-and-methods.html#palaeogeo"><i class="fa fa-check"></i><b>3.3.3</b> Palaeogeography of Cape York Peninsula (33 ka - Present)</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="background-and-methods.html"><a href="background-and-methods.html#background-to-the-methods-used-in-the-thesis"><i class="fa fa-check"></i><b>3.4</b> Background to the methods used in the thesis</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="background-and-methods.html"><a href="background-and-methods.html#geochronology-aim-i"><i class="fa fa-check"></i><b>3.4.1</b> Geochronology (Aim I)</a></li>
+<li class="chapter" data-level="3.4.2" data-path="background-and-methods.html"><a href="background-and-methods.html#environmental-change-and-palaeohydrology-aims-ii-and-iii"><i class="fa fa-check"></i><b>3.4.2</b> Environmental change and palaeohydrology (Aims II and III)</a></li>
+<li class="chapter" data-level="3.4.3" data-path="background-and-methods.html"><a href="background-and-methods.html#palaeohydrology"><i class="fa fa-check"></i><b>3.4.3</b> Palaeohydrology</a></li>
+<li class="chapter" data-level="3.4.4" data-path="background-and-methods.html"><a href="background-and-methods.html#fire-1"><i class="fa fa-check"></i><b>3.4.4</b> Fire</a></li>
+<li class="chapter" data-level="3.4.5" data-path="background-and-methods.html"><a href="background-and-methods.html#backveg"><i class="fa fa-check"></i><b>3.4.5</b> Vegetation</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="background-and-methods.html"><a href="background-and-methods.html#chapter-2-summary"><i class="fa fa-check"></i><b>3.5</b> Chapter 2 summary</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html"><i class="fa fa-check"></i><b>4</b> Sedimentology and stratigraphy</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#fieldwork-and-coring-techniques"><i class="fa fa-check"></i><b>4.1</b> Fieldwork and coring techniques</a></li>
+<li class="chapter" data-level="4.2" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#methods"><i class="fa fa-check"></i><b>4.2</b> Methods</a>
+<ul>
+<li class="chapter" data-level="4.2.1" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#core-processing"><i class="fa fa-check"></i><b>4.2.1</b> Core processing</a></li>
+<li class="chapter" data-level="4.2.2" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#basic-physical-parameters"><i class="fa fa-check"></i><b>4.2.2</b> Basic physical parameters</a></li>
+<li class="chapter" data-level="4.2.3" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#basic-chemical-parameters"><i class="fa fa-check"></i><b>4.2.3</b> Basic chemical parameters</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#results"><i class="fa fa-check"></i><b>4.3</b> Results</a>
+<ul>
+<li class="chapter" data-level="4.3.1" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#core"><i class="fa fa-check"></i><b>4.3.1</b> Core description</a></li>
+<li class="chapter" data-level="4.3.2" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#physical-parameters"><i class="fa fa-check"></i><b>4.3.2</b> Physical parameters</a></li>
+<li class="chapter" data-level="4.3.3" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#chemical-parameters"><i class="fa fa-check"></i><b>4.3.3</b> Chemical parameters</a></li>
+</ul></li>
+<li class="chapter" data-level="4.4" data-path="sedimentology-and-stratigraphy.html"><a href="sedimentology-and-stratigraphy.html#chapter-3-summary"><i class="fa fa-check"></i><b>4.4</b> Chapter 3 summary</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><i class="fa fa-check"></i><b>5</b> Developing a radiocarbon chronology for the Sanamere Lagoon sediment core</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#introduction-1"><i class="fa fa-check"></i><b>5.1</b> Introduction</a></li>
+<li class="chapter" data-level="5.2" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#methodology"><i class="fa fa-check"></i><b>5.2</b> Methodology</a>
+<ul>
+<li class="chapter" data-level="5.2.1" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#pre-treatment"><i class="fa fa-check"></i><b>5.2.1</b> Pre-treatment</a></li>
+<li class="chapter" data-level="5.2.2" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#graphitization-and-measurement"><i class="fa fa-check"></i><b>5.2.2</b> Graphitization and measurement</a></li>
+<li class="chapter" data-level="5.2.3" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#calibration"><i class="fa fa-check"></i><b>5.2.3</b> Calibration</a></li>
+</ul></li>
+<li class="chapter" data-level="5.3" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#results-1"><i class="fa fa-check"></i><b>5.3</b> Results</a></li>
+<li class="chapter" data-level="5.4" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#discussion"><i class="fa fa-check"></i><b>5.4</b> Discussion</a>
+<ul>
+<li class="chapter" data-level="5.4.1" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#assessment-of-reliability"><i class="fa fa-check"></i><b>5.4.1</b> Assessment of reliability</a></li>
+<li class="chapter" data-level="5.4.2" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#developing-a-robust-chronology"><i class="fa fa-check"></i><b>5.4.2</b> Developing a robust chronology</a></li>
+</ul></li>
+<li class="chapter" data-level="5.5" data-path="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html"><a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#chapter-summary"><i class="fa fa-check"></i><b>5.5</b> Chapter summary</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">PhD</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core" class="section level1" number="5">
+<h1><span class="header-section-number">Chapter 5</span> Developing a radiocarbon chronology for the Sanamere Lagoon sediment core</h1>
+<div id="introduction-1" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Introduction</h2>
+<p>Obtaining an accurate chronology is fundamental to placing any reconstruction of past environmental change within a robust temporal framework. Selecting a reliable carbon fraction and a pre-treatment that removes all or most of the contaminants are key to obtaining reliable radiocarbon dates <span class="citation">(Bronk Ramsey, <a href="#ref-bronkramseyRadiocarbonDatingRevolutions2008" role="doc-biblioref">2008</a>; Pettitt et al., <a href="#ref-pettittPalaeolithicRadiocarbonChronology2003" role="doc-biblioref">2003</a>)</span>. This selection becomes particularly challenging in the tropics where high annual temperatures negatively and differentially influence the preservation of different organic fractions. Furthermore, the seasonal nature of the tropical hydrological cycle in northern Australia results in high rates of weathering and variable pH and redox conditions, in turn altering carbon cycling and preservation in lake sediment columns <span class="citation">(Bird et al., <a href="#ref-birdRadiocarbonAnalysisEarly2002" role="doc-biblioref">2002</a>; Higham et al., <a href="#ref-highamRadiocarbonDatingCharcoal2009" role="doc-biblioref">2009</a>)</span>. Collectively, these conditions limit the availability of those organic components considered more reliable and the dating of other fractions can result in aberrant radiocarbon results that are linked to, for example, poorly preserved or degraded charcoal, identifiable when the combustion yields are lower than usually expected (50–60 % carbon by weight) <span class="citation">(Higham et al., <a href="#ref-highamRadiocarbonDatingCharcoal2009" role="doc-biblioref">2009</a>)</span>. Although there is currently no agreement about which is the most reliable fraction to avoid these issues, short-lived plant macrofossils and charcoal <span class="citation">(Cohen, <a href="#ref-cohenPaleolimnologyHistoryEvolution2003" role="doc-biblioref">2003</a>; Martin et al., <a href="#ref-martinRadiocarbonAgesDifferent2019" role="doc-biblioref">2019</a>)</span> tend to be among the most favoured materials for dating.</p>
+<p>Despite the importance of choosing a reliable carbon fraction that represents the age of contemporaneous sediment deposition, few studies have focused on sediments in the tropics. Comparative studies based on multiple organic fractions in the tropics have focused on swamps <span class="citation">(May et al., <a href="#ref-mayEstablishingChronologicalFramework2018" role="doc-biblioref">2018</a>)</span>, peats <span class="citation">(Wüst et al., <a href="#ref-wustComparisonRadiocarbonAges2008" role="doc-biblioref">2008</a>)</span> and organic springs <span class="citation">(Field, S. Marx, et al., <a href="#ref-fieldUntanglingGeochronologicalComplexity2018" role="doc-biblioref">2018</a>)</span>, with no studies having been undertaken using lake sediments and no studies in any tropical environment compare more than four fractions. Results from the available studies (as mentioned above) are contradictory regarding the reliability of macro-charcoal and pollen concentrates (yielding anomalously older or younger ages compared to other fractions). Studies in temperate areas have also reported significant discrepancies between radiocarbon dates for different, supposedly contemporaneous carbon fractions in lake sediments from the same depth. For example, in boreal and arctic lake sediments wood and charcoal were found to be older than other organic materials such as conifer and deciduous periderms, usually by several hundred years <span class="citation">(Oswald et al., <a href="#ref-oswaldEffectsSampleMass2005" role="doc-biblioref">2005</a>)</span>.</p>
+<p>Discrepancies have likewise been found within different types of macrofossils, with some more prone to an apparent ‘reservoir effect’ <span class="citation">(Turney et al., <a href="#ref-turneyImplicationsDatingWisconsinan2000" role="doc-biblioref">2000</a>)</span>. For instance, pollen, charcoal and bulk sediment are recognized to be highly mobile, porous and heterogeneously sourced, all of which complicates their reliability for radiocarbon dating. Additionally, several studies have demonstrated that there are significant uncertainties associated with simply dating bulk sediment, regardless of the geographical location from where the sample was collected <span class="citation">(Björck et al., <a href="#ref-bjorckHighresolution14CDated1998" role="doc-biblioref">1998</a>; Wüst et al., <a href="#ref-wustComparisonRadiocarbonAges2008" role="doc-biblioref">2008</a>; Xu and Zheng, <a href="#ref-xuVariationsRadiocarbonAges2003" role="doc-biblioref">2003</a>)</span>. Extensive research has shown how the effect of contamination depends on the age of the sample <span class="citation">(Higham et al., <a href="#ref-highamRadiocarbonDatesOxford2011" role="doc-biblioref">2011</a>; Pettitt et al., <a href="#ref-pettittPalaeolithicRadiocarbonChronology2003" role="doc-biblioref">2003</a>; Wood, <a href="#ref-woodRevolutionConventionPresent2015" role="doc-biblioref">2015</a>)</span>. Dating beyond 10 thousand calibrated years before present (ka) becomes considerably more problematic as even minimal percentages of contamination can cause hundreds to thousands of years of offset <span class="citation">(Aitken, <a href="#ref-aitkenSciencebasedDatingArchaeology1990" role="doc-biblioref">1990</a>; Wood, <a href="#ref-woodRevolutionConventionPresent2015" role="doc-biblioref">2015</a>)</span>. In fact, offsets of up to 16,000 years between radiocarbon ages from bark and pollen from a tropical peat were obtained in a previous study, with pollen extracts resulting in older dates <span class="citation">(Wüst et al., <a href="#ref-wustComparisonRadiocarbonAges2008" role="doc-biblioref">2008</a>)</span>.</p>
+<p>Pre-treatment procedures are also fundamental to the generation of accurate radiocarbon dates. While acid-base-acid (ABA treatment) is routinely employed to remove contaminants, it is not always effective <span class="citation">(Chappell et al., <a href="#ref-chappellRadiocarbonLimitAustralian1996" role="doc-biblioref">1996</a>; Gillespie et al., <a href="#ref-gillespieAMSDatingLate1992" role="doc-biblioref">1992</a>)</span>. Notably, the determination of when decontamination is complete is technically challenging. The base treatment during ABA can further remove charcoal by solubilizing it to ‘humic acid’, resulting in considerable sample loss. As an alternative to ABA, acid-base-wet oxidation (ABOX) has been found to be more appropriate and an effective method to remove contamination, especially for old samples <span class="citation">(Bird et al., <a href="#ref-birdRadiocarbonDatingOld1999" role="doc-biblioref">1999</a>, <a href="#ref-birdEfficiencyCharcoalDecontamination2014" role="doc-biblioref">2014</a>)</span>. However, the harshness of the technique can remove excessive carbon and this may limit the application of the technique in the tropics where macroremains are scarce <span class="citation">(Bird et al., <a href="#ref-birdRadiocarbonDatingOld1999" role="doc-biblioref">1999</a>)</span>. Recent studies have shown that ABA and hypy-treated pairs can produce comparable results to each other in some contexts <span class="citation">(Alex et al., <a href="#ref-alexRadiocarbonChronologyManot2017" role="doc-biblioref">2017</a>; Bird et al., <a href="#ref-birdEfficiencyCharcoalDecontamination2014" role="doc-biblioref">2014</a>; David et al., <a href="#ref-david45610522019" role="doc-biblioref">2019</a>)</span>. Hydropyrolysis (hypy) (to isolate stable polycyclic aromatic carbon: SPAC) has shown promising results in mound spring deposits, where the technique appeared to remove the effects of post-depositional modification to the ages obtained from different organic fractions from the sediment <span class="citation">(Field, S. Marx, et al., <a href="#ref-fieldUntanglingGeochronologicalComplexity2018" role="doc-biblioref">2018</a>)</span>. Given this promising result, hypy pretreatment might be expected to be similarly effective in lake sediments.</p>
+<p>Given the fact that most studies rely on the dates from one organic fraction over the entire sequence, it is imperative to test whether alternative protocols using different carbon fractions, pre-treatments would yield more accurate results across a range of depositional ages. This chapter examines six carbon fractions in samples from a Sanamere Lagoon sediment core to determine which fraction and technique pre-treatment is most appropriate to obtain reliable radiocarbon dating results.</p>
+</div>
+<div id="methodology" class="section level2" number="5.2">
+<h2><span class="header-section-number">5.2</span> Methodology</h2>
+<p>Details about the site, field work and core processing can be found in chapter <a href="#ch:sed"><strong>??</strong></a>. Samples for <sup>14</sup>C AMS dating were obtained for six different carbon fractions (hypy, microcharcoal, macrocharcoal, pollen concentrate, ‘cellulose’ and bulk organics) for six depths spread along the core (Table <a href="#tab:tb-one"><strong>??</strong></a>, Figure <a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#fig:radiocarbonmet">5.2</a> and Figure <a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#fig:fractions">5.3</a>). These depths were chosen by consideration of the stratigraphic changes (see chapter <a href="#ch:sed"><strong>??</strong></a>) observed along the sequence (texture, color, elemental abundance). Although attempts to extract all fractions from the same depth were made, this was not achieved as samples from some depths yielded insufficient amounts of carbon after pretreatment to be processed for radiocarbon dating (Appendix 1). In order to address this issue, samples from additional depths were analysed to complete the age-depth model.</p>
+<div id="pre-treatment" class="section level3" number="5.2.1">
+<h3><span class="header-section-number">5.2.1</span> Pre-treatment</h3>
+<p>Pre-treatment of radiocarbon samples for pollen, cellulose, macrocharcoal, microcharcoal and bulk organics (standard method) followed the ANSTO protocols detailed below.</p>
+<div id="pollen" class="section level4" number="5.2.1.1">
+<h4><span class="header-section-number">5.2.1.1</span> Pollen</h4>
+<p>Extraction of pollen was adapted from <span class="citation">Bennett and Willis (<a href="#ref-bennettPollen2002" role="doc-biblioref">2002</a>)</span>. Three sediment samples were washed with 10 % HCl and then passed through a 150 <span class="math inline">\(\mu\)</span>m sieve. The smaller fraction was retained and then washed with 10 % NaOH several times until the supernatant was clear. Subsequently, 20 mL of 40 % HF was added and the sample left overnight. Subsequently, the samples were first washed two times with 2 M HCl and finally with Milli-Q water. Lithium heteropolytungstate (LST) with a specific gravity of 1.8 was used for density separation, with the floating fraction retained for examination under the microscope. The resultant pollen concentrate was dried overnight at 60°C.</p>
+</div>
+<div id="bulk-organics-standard-method" class="section level4" number="5.2.1.2">
+<h4><span class="header-section-number">5.2.1.2</span> Bulk organics (standard method)</h4>
+<p>Five sediment samples were processed at ANSTO following the ABA pre-treatment detailed in <span class="citation">Hatté et al. (<a href="#ref-hatteClassicalAcidAlkaliAcidTreatment2001" role="doc-biblioref">2001</a>)</span>. First, visible contaminants (roots, rocks) were removed and then a wash with 2 M HCl was performed (to remove carbonates), followed by sequential washes of 0.5 %, 1 %, 2 % and 4 % NaOH, until the supernatant liquid was clear (to remove fulvic and humic acids). A wash with 2 M HCl to remove any atmospheric carbon dioxide (CO<sub>2</sub>) absorbed during alkali treatment was performed, followed by three washes with Milli-Q water, and the samples were finally oven-dried at 60 °C overnight.</p>
+</div>
+<div id="bulk-organics-modified-method" class="section level4" number="5.2.1.3">
+<h4><span class="header-section-number">5.2.1.3</span> Bulk organics (modified method)</h4>
+<p>The pretreatment with hydrogen peroxide has proven to be effective in removing contaminant organic matter in radiocarbon dating samples <span class="citation">(Chiu et al., <a href="#ref-chiuExtendingRadiocarbonCalibration2005" role="doc-biblioref">2005</a>)</span>. In order to further test the success in removing exogenous organic matter, two additional sediment samples were first pretreated with 30 % hydrogen peroxide overnight at the Advanced Analytical Centre at James Cook University Cairns, freeze dried and then sent for standard ABA pre-treatment at the Waikato Radiocarbon Dating Laboratory. This procedure involved the removal of visible contaminants, following with the samples washed with hot HCl, then rinsed and treated with multiple hot NaOH washes. The NaOH insoluble fraction was treated with hot HCl, filtered, rinsed and dried.</p>
+</div>
+<div id="macro-and-microcharcoal" class="section level4" number="5.2.1.4">
+<h4><span class="header-section-number">5.2.1.4</span> Macro and microcharcoal</h4>
+<p>Charcoal samples at 6 cm were pre-treated with 30 % hydrogen peroxide for 2 h and then passed through 250 <span class="math inline">\(\mu\)</span>m and 63 <span class="math inline">\(\mu\)</span>m sieves. These two fractions were then examined under the microscope, and pieces of charcoal were recovered using tweezers (in the case of the &gt;250 <span class="math inline">\(\mu\)</span>m fraction) and an Eppendorf InjectMan® 4 micromanipulator (for the 63 - 250 <span class="math inline">\(\mu\)</span>m fraction). Samples were then washed with 0.5 % NaOH and 2 M HCl. Samples at 3 and 82 cm were pre-treated with 10 % hydrogen peroxide and the pre-treatment followed as above.</p>
+</div>
+<div id="cellulose" class="section level4" number="5.2.1.5">
+<h4><span class="header-section-number">5.2.1.5</span> Cellulose</h4>
+<p>Extraction of cellulose was adapted from <span class="citation">Gillespie (<a href="#ref-gillespieNovelCellulosepreparationMethod2019" role="doc-biblioref">2019</a>)</span>. Three sediment samples were pre-treated with 1 M NaOCl/NaOH for 2 hours and washed with 1 M HCl. The samples were then reacted with 1 M NaClO<sub>2</sub>/HCl for another 2 hours and then washed with 1 M HCl. This procedure was then repeated and the samples were washed with water three times. Finally, samples were oven-dried at 60°C overnight.</p>
+</div>
+<div id="hypy-fraction" class="section level4" number="5.2.1.6">
+<h4><span class="header-section-number">5.2.1.6</span> Hypy fraction</h4>
+<p>Fourteen sediment samples were pretreated using hypy to isolate the pyrogenic carbon (PyC) <span class="citation">(Ascough et al., <a href="#ref-ascoughHydropyrolysisNewTool2009" role="doc-biblioref">2009</a>; Meredith et al., <a href="#ref-meredithAssessmentHydropyrolysisMethod2012" role="doc-biblioref">2012</a>)</span>. First, 30 % hydrogen peroxide was added to the samples. The samples were left overnight then washed with 2 M HCl, and freeze dried. Aliquots of each sample were then loaded with a catalyst and 20 % MeOH/H<sub>2</sub>O solution, sonicated for 15 min and dried over a hotplate at 60 °C. These samples were placed in the HyPy reactor, pressurized with hydrogen (H<sub>2</sub>) to 150 bar with a gas flow of 4 L/minute over 40 minutes. Finally, samples were washed for 2 hours with 6 M HCl at 60 °C.</p>
+</div>
+</div>
+<div id="graphitization-and-measurement" class="section level3" number="5.2.2">
+<h3><span class="header-section-number">5.2.2</span> Graphitization and measurement</h3>
+<p>Samples were combusted at 900 °C to convert them to CO<sub>2</sub>, followed by graphitisation using the H<sub>2</sub>/Fe method <span class="citation">(Hua et al., <a href="#ref-huaProgressRadiocarbonTarget2001" role="doc-biblioref">2001</a>)</span>. Carbon-14 measurement of all samples was undertaken by Accelerator Mass Spectrometry (AMS) on the VEGA and ANTARES accelerators at ANSTO <span class="citation">(Fink et al., <a href="#ref-finkANTARESAMSFacility2004" role="doc-biblioref">2004</a>)</span> except for samples Wk50327 and Wk50328, which were measured at the Waikato Radiocarbon Dating Laboratory.</p>
+</div>
+<div id="calibration" class="section level3" number="5.2.3">
+<h3><span class="header-section-number">5.2.3</span> Calibration</h3>
+<p>All samples were calibrated using the rbacon R package <span class="citation">(Blaauw and Christen, <a href="#ref-blaauwRbaconAgedepthModelling2019" role="doc-biblioref">2019</a>)</span> and the IntCal13 calibration curve <span class="citation">(Reimer et al., <a href="#ref-reimerIntCal13Marine13Radiocarbon2013" role="doc-biblioref">2013</a>)</span> with 0 calibrated years before present representing 1950 AD. IntCal13 was used rather than SHCal13. IntCal13 was used due to the influence of Northern Hemisphere air masses on the Tropical North of Australia, when the Inter Tropical Convergence Zone moves southwards during the Australian-Indonesian summer monsoons <span class="citation">(Hogg et al., <a href="#ref-hoggSHCal13SouthernHemisphere2013" role="doc-biblioref">2013</a>)</span>.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:radiocarbon1"></span>
+<img src="Figs/SAN_final.png" alt="Sanamere Lagoon on Cape York Peninsula" width="100%" />
+<p class="caption">
+Figure 5.1: Sanamere Lagoon on Cape York Peninsula
+</p>
+</div>
+
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:radiocarbonmet"></span>
+<img src="other/RC%20cha/rad_met.png" alt="Summary of methods" width="100%" />
+<p class="caption">
+Figure 5.2: Summary of methods
+</p>
+</div>
+
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:fractions"></span>
+<img src="other/RC%20cha/fractions.png" alt="Carbon fractions and corresponding pretreatment techniques" width="100%" />
+<p class="caption">
+Figure 5.3: Carbon fractions and corresponding pretreatment techniques
+</p>
+</div>
+
+</div>
+</div>
+<div id="results-1" class="section level2" number="5.3">
+<h2><span class="header-section-number">5.3</span> Results</h2>
+
+<p>A total of 27 radiocarbon dates were obtained for 17 different depths along the core. Overall, the ages ranged from 2.067 - 2.466 ka (2 <span class="math inline">\(\sigma\)</span>) at 3 cm (hypy fraction) to 30.889 - 31.304 ka (2 <span class="math inline">\(\sigma\)</span>) at 162 cm (hypy fraction), spanning 29237 years in total. As discussed above, ages were obtained for more than one fraction from six depths. Table <a href="#tab:tb-one"><strong>??</strong></a> shows the results from the radiocarbon dating measurements and the calibrated results. Below 82 cm, the availability of fractions to compare was reduced to bulk organics, the hypy fraction and pollen concentrates, as these were the only fractions to yield sufficient carbon to be analysed by AMS. Therefore, charcoal fractions &gt; 63 <span class="math inline">\(\mu\)</span>m and cellulose could not be compared after this depth. From the three depths originally processed with the cellulose pre-treatment method only one sample retained enough carbon to be measured, given the aggressiveness of the pretreatment.</p>
+<p>The micro-charcoal result at 3 cm showed the largest age reversal overall, 8,990 years older than the hypy date at the same depth. Two pairs of hypy ages also showed age reversals, with the smallest (a difference of 840 years) between the dates at 23 and 32 cm and the largest between the dates 90 and 105 cm (a difference of 1970 years). The only cellulose sample yielded a younger date in comparison to what was expected for that depth based on the other results (Table <a href="#tab:tb-one"><strong>??</strong></a>, Figure <a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#fig:radiocarbon-gr2">5.4</a>).</p>
+<p>The difference between the ages from different fractions generally increased with depth (Table <a href="#tab:tb-four"><strong>??</strong></a>). The only section of the core where all dating results overlap (except for the pollen concentrate) is at 6 cm, while the other five depths showed large differences between the results from different fractions, with the largest offset at 146 cm (a difference of 16,527 years), between hypy and pollen. The bulk organic fractions pretreated with standard ABA procedures also differed significantly from the hypy fraction (being up to 9,516 years younger than the former). Although not from the same depths (but within 10 cm), the modified ABA pretreatment yielded results that aligned closely with the hypy results at the two depths they were compared.</p>
+<p>In four out of six cases (the deepest samples), hypy yielded the oldest date from those available at that depth, and in two cases (the shallowest samples), hypy yielded the youngest results. Bulk organics (standard ABA) yielded the youngest result for four depths (43, 67, 137 and 146 cm). The pollen results were inconsistent, yielding the oldest and youngest dates at 6 cm and 146 cm, respectively (Table <a href="#tab:tb-four"><strong>??</strong></a>).</p>
+
+
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:radiocarbon-gr2"></span>
+<img src="Figs/dates_RC_2.png" alt="Calibrated ages by depth and carbon fraction along the Sanamere sediment core" width="100%" />
+<p class="caption">
+Figure 5.4: Calibrated ages by depth and carbon fraction along the Sanamere sediment core
+</p>
+</div>
+
+</div>
+<div id="discussion" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Discussion</h2>
+<div id="assessment-of-reliability" class="section level3" number="5.4.1">
+<h3><span class="header-section-number">5.4.1</span> Assessment of reliability</h3>
+<p>The hypy dates yielded the oldest dates and the most consistent internal chronology with only two minor age reversals (at 23 and 90 cm). Although previous studies suggest that hypy dates could be biased to older ages due to potential for reservoir effects <span class="citation">(Field, S. Marx, et al., <a href="#ref-fieldUntanglingGeochronologicalComplexity2018" role="doc-biblioref">2018</a>)</span>, this study found this pre-treatment and its resulting carbon fraction (SPAC) to be the most reliable.</p>
+<p>All ages returned (except at 6 cm) following hypy pre-treatment are considerably older than dates from comparable levels for other carbon fractions. This finding is consistent with the results obtained from the radiocarbon dates from organic spring deposits in northwest Australia, where hypy ages were found to be older than other fractions, but also considered more reliable based on their more consistent age-depth relationship within each core <span class="citation">(Field, S. Marx, et al., <a href="#ref-fieldUntanglingGeochronologicalComplexity2018" role="doc-biblioref">2018</a>)</span>. Hypy reduces labile organic matter to volatile products <span class="citation">(Ascough et al., <a href="#ref-ascoughHydropyrolysisNewTool2009" role="doc-biblioref">2009</a>)</span> and potentially removes &gt; 92 % of all labile carbon <span class="citation">(Bird et al., <a href="#ref-birdEfficiencyCharcoalDecontamination2014" role="doc-biblioref">2014</a>)</span>. Hypy represents the carbon fixed by pyrolysis at the time of a burning event, therefore the ‘indigenous’ or core component of the original charcoal <span class="citation">(Ascough et al., <a href="#ref-ascoughHydropyrolysisNewTool2009" role="doc-biblioref">2009</a>, <a href="#ref-ascoughHydropyrolysisImplicationsRadiocarbon2010" role="doc-biblioref">2010</a>)</span>.</p>
+<p>The hypy dates at 23 cm (7.798 - 8.162 ka) and 32 cm (7.292 - 7.425 ka) show an age reversal of 506 - 870 years (Figure <a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#fig:radiocarbon-gr2">5.4</a>). These dates are from the section of the core that has high organic content, high pyrogenic carbon mass accumulation rates and large fluctuations in the normalized titanium counts (range 0.02 - 0.45). Both changes in erosion (as evidenced by clastic input) and high organic input at this time suggest that some reworking could have happened during this period, which coincides in timing with the flooding of the adjacent continental shelf in response to an increase in sea level during the early Holocene in north Australia <span class="citation">(Chivas et al., <a href="#ref-chivasSealevelEnvironmentalChanges2001" role="doc-biblioref">2001</a>; Reeves et al., <a href="#ref-reevesPalaeoenvironmentalChangeTropical2013" role="doc-biblioref">2013</a>; Sloss et al., <a href="#ref-slossHoloceneSealevelChange2018a" role="doc-biblioref">2018</a>; Yokoyama et al., <a href="#ref-yokoyamaShorelineReconstructionAustralia2001" role="doc-biblioref">2001</a>)</span>, and therefore to a period of wetter climate, with potentially more intense seasonal rainfall events. More overland transport of soil material from the catchment, may well have transported ‘old’ charcoal into the lake at this time. A second age reversal is present between results at 90 cm and 105 cm (1,100 years) in the hypy results, with the only apparent sedimentological indication of change being a slight decrease in the titanium counts down-core between these two depths. It is possible that the date at 105 cm exhibits an incomplete removal of exogenous carbon, the main issue identified when applying hypy pre-treatment to charcoal formed at 400°C or below <span class="citation">(Bird et al., <a href="#ref-birdEfficiencyCharcoalDecontamination2014" role="doc-biblioref">2014</a>)</span>.</p>
+<p>The results from fractions other than hypy at the same or comparable depths (except at 6 cm) were uniformly younger than the hypy results. Besides the possibility of the physical mobility of material in the sediment columns, it is likely that the differences between the ages of fractions at 43, 67, 137 and 146 cm are the result of unremoved contamination by carbon of a different, generally younger age in the bulk organics (standard treatment) and pollen fractions. The mobilization of materials and therefore, the contamination of samples with exogenous carbon is made more likely in the Sanamere sequence because the entire 31,000 years of accumulation is represented in only 172 cm of sediment. The top 43 cm contains high proportions of water, which also facilitates the mixing of materials by physical translocation and/or solubilization.</p>
+<p>The results suggest that, for the majority of samples in this study, the standard ABA pretreatment was ineffective in removing modern contamination from the bulk organic fraction. An inbuilt ‘reservoir’ age associated with a period of storage in the lake catchment may have biased the hypy results to older ages by an unknown amount. However, it is unlikely that this could cause such large offsets between the hypy dates and dates from the other fractions. If there was a reservoir offset relating to a period of storage of up to 9,540 years in the catchment, this would manifest itself in the hypy dates throughout the sequence, whereas what is observed is a generally smaller offset up the core. Indeed, the uppermost hypy date the hypy date is younger than that of the other fractions, implying the circulation of carbon of an apparent age representative of all carbon in the sediment through the relatively thin sediment pile, such that dates high in the sequence are biased old and dates deeper in the sequence are biased young.</p>
+<p>Further evidence that there is no substantial reservoir effect on the hypy dates is provided by the observation that the two samples subject to the modified bulk organic pretreatment, where peroxide was used before standard ABA yielded results close to those obtained from the hypy fraction. Except for the anomalous charcoal result at 3 cm, and the slightly old pollen date at 6 cm, all dates from all fractions and pretreatments before 23 cm overlapped (when they belonged to the same depth), and did not show any age reversals. Below 23 cm, large offsets between samples from the same depth and age reversals were observed.</p>
+<p>The increasing magnitude of the difference between hypy and the other fractions ages with depth/age is consistent with what would be expected for the younger samples having between 2 and 5 % unremoved modern contamination <span class="citation">(Wood, <a href="#ref-woodRevolutionConventionPresent2015" role="doc-biblioref">2015</a>)</span>, or more contamination of an older aggregate apparent age.</p>
+<p>The results strongly indicate the presence of unremoved exogenous carbon contamination in some of the fractions. For example, the largest offset between two fractions was found at 146 cm (16,685 years) between pollen and hypy, which suggests that pollen from higher depths mobilized down the core and/or the concentrate contained exogenous younger materials. The two pollen concentrate samples available show inconsistent results, as has been found in previous studies (younger <span class="citation">(Field, S. Marx, et al., <a href="#ref-fieldUntanglingGeochronologicalComplexity2018" role="doc-biblioref">2018</a>; May et al., <a href="#ref-mayEstablishingChronologicalFramework2018" role="doc-biblioref">2018</a>)</span> or older <span class="citation">(Fletcher et al., <a href="#ref-fletcherAMSRadiocarbonDating2017" role="doc-biblioref">2017</a>; Neulieb, <a href="#ref-neuliebPotentialPitfallsPollen2013" role="doc-biblioref">2013</a>)</span>), with the sample at 6 cm having the oldest date compared with the other fractions at the same depth, while the sample at 146 cm is the youngest compared to the bulk organics and hypy results. When inspected under the microscope, these samples appeared to be composed by around 50 % pollen, with the rest of material being plant material and charcoal. This addition of heterogeneously sourced materials could have added exogenous carbon contamination resulting in the aberrant results. Other studies also have identified anomalous, generally younger ages derived from pollen concentrates <span class="citation">(Clymo and Mackay, <a href="#ref-clymoUpwashDownwashPollen1987" role="doc-biblioref">1987</a>; May et al., <a href="#ref-mayEstablishingChronologicalFramework2018" role="doc-biblioref">2018</a>)</span> due to the high physical mobility of small particles but also the high porosity of the pollen walls, which can sorb and accumulate exogenous carbon <span class="citation">(Kilian et al., <a href="#ref-kilianProblematic14CAMSDates2002a" role="doc-biblioref">2002</a>)</span>. The existence of clearly anomalously young pollen dates strongly suggests that there is potential for contamination by young carbon in all the organic fractions.</p>
+<p>Large offsets (up to 9,504 years) were also found between bulk organics and hypy, with the former showing younger ages. This finding is consistent with previous studies which found that bulk organics pretreated with standard ABA can yield anomalously young dates <span class="citation">(Pessenda et al., <a href="#ref-pessendaRadiocarbonDatingTotal2001" role="doc-biblioref">2001</a>; Wang et al., <a href="#ref-wangRadiocarbonDatingSoil1996" role="doc-biblioref">1996</a>; Wüst et al., <a href="#ref-wustComparisonRadiocarbonAges2008" role="doc-biblioref">2008</a>)</span>. Although measured at 42 cm (not 43 cm as the other two fractions), the cellulose extraction yielded an age younger compared to what was expected from the bulk organics and hypy age-depth relationship.</p>
+<p>While the results from micro and macro charcoal were expected to be tested along the entire core to better understand differences in their sources, their availability was limited below 82 cm. As the age ranges obtained for both overlapped at 6 cm, the possibility that they represent different sources is low. The charcoal samples (&gt;63 <span class="math inline">\(\mu\)</span>m fraction) at 3 cm and 82 cm showed older and younger dates (respectively), compared to the age/depth relationships expected from the relationship determined by samples treated by hypy or modified ABA. It is possible that the incomplete removal of organic contaminants by the standard ABA method caused this offset. Given its large surface area and porosity, charcoal is known for absorbing exogenous carbon, which can undergo irreversible reactions with the charcoal surface. Charcoal is also suitable for microbial colonization, and microbial carbon cycling could also lead to the incorporation of exogenous carbon.</p>
+</div>
+<div id="developing-a-robust-chronology" class="section level3" number="5.4.2">
+<h3><span class="header-section-number">5.4.2</span> Developing a robust chronology</h3>
+<p>While two age-depth models were built with the results from bulk organics (ABA) and hypy dates (Figure <a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#fig:modelsb">5.5</a>), the model including only the hypy dates was the most consistent with the stratigraphic and sedimentologic changes identified in the Sanamere sequence (chapter <a href="#ch:sed"><strong>??</strong></a>), and is preferred over what also appears to be a reliable chronology based on the bulk organic dates based on the discussion above. This model included 13 hypy samples (Table <a href="#tab:tb-one"><strong>??</strong></a>), with all but two dates (23 cm and 105 cm) fitting within the 95 % confidence interval. The modelled ages ranged between 0.4 (3 cm) and 33 ka (162 cm). The peroxide+ABA pretreated bulk organics samples also agree reasonably well with the hypy-only model, including one of the dates fitting within the error range, and the other yielding a slightly older date (by 314 years). This further supports the reliability of the hypy results and bolsters the conclusion that old contamination has not affected the hypy results to any significant degree.</p>
+<p>The timing of changes in sedimentation rate inferred using the hypy model is consistent with the observed changes in sedimentology observed at 43 cm and 71 cm, which are the upper and lower bounds of two of the stratigraphic units observed in the Sanamere sequence (chapter <a href="#ch:sed"><strong>??</strong></a>, Figure <a href="developing-a-radiocarbon-chronology-for-the-sanamere-lagoon-sediment-core.html#fig:modelsb">5.5</a>). Between 71 and 172 cm, there are no major sedimentological changes, (other than the inclusion of more coarse clastic fragments at 140 cm down-core). The charcoal samples (both particle sizes) were consistent with hypy dates at 6 cm, but not down-core. This inconsistency suggests that dates from unique pieces of charcoal pre-treated only by ABA could lead to biased results. Again, the hypy samples appear more reliable, as total pyrogenic carbon content measured using the hypy technique is less likely to be biased by individual charcoal fragments, each of which may have some (unknown) residence time prior to deposition in the lake sediment and/or degree of unremoved contamination.</p>
+<p>Although the age-depth model built with the standard ABA-pretreated bulk organics samples had no age-reversals, and a range between 4.1 to 22.3 ka, the modelled ages were not consistent with the stratigraphic changes in the Sanamere sequence (in contrast with the hypy model). Additionally, none of the pollen and cellulose samples fit within the age-model derived from the organics or bore any relationship to the observed stratigraphic units in the sequence, regardless of depth. These inconsistencies between pollen, cellulose and bulk organics dates suggest that results from any of these fractions are likely biased by unremoved contamination or physical translocation to a variable degree.</p>
+<p>Additional evidence to support the choice of the hypy model is its consistency with the timing of environmental events. For instance, the layer between 65 - 71 cm matches the time period between 18 - 20 ka, identified as a period of environmental change in regional studies. Strong evidence from paleoenvironmental studies has been found to support the dominance of cooler and drier conditions during this period in tropical Australasia <span class="citation">(Burrows et al., <a href="#ref-burrowsNewLateQuaternary2016a" role="doc-biblioref">2016</a>; Reeves et al., <a href="#ref-reevesPalaeoenvironmentalChangeTropical2013" role="doc-biblioref">2013</a>; Turney et al., <a href="#ref-turneyGeochemicalChangesRecorded2006a" role="doc-biblioref">2006</a>)</span>. In contrast, this layer was modelled as 11 - 11.6 ka based on the age model derived from the bulk organics (ABA) curve. Moreover, the hypy chronology is consistent with the most likely timing for the formation of the lake ~ 33 ka. In this instance, a collapse in laterite karst formed a depression, as a result of lowered water tables that would accompany the rapid drop in sea level and drier conditions moving from MIS3 into MIS2 <span class="citation">(Xu et al., <a href="#ref-xuSealevelChangeDriver2019" role="doc-biblioref">2019</a>)</span>.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:modelsb"></span>
+<img src="Figs/models_RC_2.png" alt="Age-depth models (95 % confidence error bars) constructed using Bayesian age modelling with rbacon package in R. Chronology based on Hypy is represented in turquoise and chronology based on bulk organics in blue, along with the calibrated dates from additional carbon fractions, none used in the construction of either chronology." width="80%" />
+<p class="caption">
+Figure 5.5: Age-depth models (95 % confidence error bars) constructed using Bayesian age modelling with rbacon package in R. Chronology based on Hypy is represented in turquoise and chronology based on bulk organics in blue, along with the calibrated dates from additional carbon fractions, none used in the construction of either chronology.
+</p>
+</div>
+
+<p>Finally, the results from this study highlight the importance of comparing the results from different fractions (when using radiocarbon dating) or contrasting the dates from multiple dating methods when building to support the construction of palaeoenvironmental proxy records and comparing results those derived from other dating methods. Caution should be exercised when interpreting chronologies derived from bulk organics carbon fractions. Although the chronology obtained using bulk organics with the standard ABA-pretreatment method appeared to be consistent and with no age reversals, hypy provides the most robust chronology for the Sanamere Lagoon sequence and indicate the bulk organics chronology to be incorrect.</p>
+</div>
+</div>
+<div id="chapter-summary" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Chapter summary</h2>
+<p>The selection and pre-treatment of a reliable organic fraction from which to acquire radiocarbon dates is fundamental to the development of accurate and precise chronologies. Sampling from tropical lakes is particularly challenging given the adverse preservation conditions and diagenesis in these environments. This chapter examines and quantifies the differences between the radiocarbon date results and reliability from different carbon fractions and pretreatments from the same depths from Sanamere Lagoon, a tropical lake sediment core (1.72 m long)</p>
+<p>located in north Australia. Six different organic fractions (bulk organics, pollen concentrate, cellulose, stable polycyclic aromatic carbon (SPAC), charcoal &gt;250 um and charcoal &gt;63 um), for a total of 27 radiocarbon dates, were compared in six different depths along the core. Acid-base-acid (ABA), modified ABA (30 % hydrogen peroxide + ABA), 2chlorOx (a novel cellulose pre-treatment method) and hydrogen pyrolysis (hypy) were used to pre-treat the correspondent organic fractions.
+The oldest date is 31.3 ka and the youngest is 2.5 ka, spanning 29,247 years. The smallest offset between the minimum and the maximum age in a given depth was found to be 975 years (between SPAC and charcoal &gt;63 um) and the largest 16,527 years (between pollen concentrate and SPAC). The SPAC fractions pre-treated with hypy yielded older ages compared to all other fraction in most cases, while bulk organics consistently yielded younger ages. The magnitude and consistency of the offsets and the physical and chemical properties of the tested organic fractions suggest that SPAC is the most reliable fraction to date in tropical lake sediments and that hypy successfully removes contamination sourced from exogenous carbon.
+The Sanamere Lagoon chronology was built exclusively using samples pretreated with hypy. Hypy outperforms the other procedures to pretreat samples for radiocarbon dating, and it was the most consistent with the stratigraphical changes found in the core.</p>
+
+
+
+
+<div id="refs" class="references hanging-indent">
+<div>
+<p>Abrahams, H., Mulvaney, M., Glasco, D., Bugg, A., 1995. Areas of Conservation Significance on Cape York Peninsula. Australian Heritage Commission, Canberra.</p>
+</div>
+<div>
+<p>Aitken, M.J., 1990. Science-based dating in archaeology, Longman archaeology series. Longman, London ; New York.</p>
+</div>
+<div>
+<p>Alex, B., Barzilai, O., Hershkovitz, I., Marder, O., Berna, F., Caracuta, V., Abulafia, T., Davis, L., Goder-Goldberger, M., Lavi, R., Mintz, E., Regev, L., Bar-Yosef Mayer, D., Tejero, J.-M., Yeshurun, R., Ayalon, A., Bar-Matthews, M., Yasur, G., Frumkin, A., Latimer, B., Hans, M.G., Boaretto, E., 2017. Radiocarbon chronology of Manot Cave, Israel and Upper Paleolithic dispersals. Sci. Adv. 3, e1701450. <a href="https://doi.org/10.1126/sciadv.1701450">https://doi.org/10.1126/sciadv.1701450</a></p>
+</div>
+<div>
+<p>Ali, A.A., Higuera, P.E., Bergeron, Y., Carcaillet, C., 2009. Comparing fire-history interpretations based on area, number and estimated volume of macroscopic charcoal in lake sediments. Quat. res. 72, 462–468. <a href="https://doi.org/10.1016/j.yqres.2009.07.002">https://doi.org/10.1016/j.yqres.2009.07.002</a></p>
+</div>
+<div>
+<p>Ascough, P.L., Bird, M.I., Brock, F., Higham, T.F.G., Meredith, W., Snape, C.E., Vane, C.H., 2009. Hydropyrolysis as a new tool for radiocarbon pre-treatment and the quantification of black carbon. Quaternary Geochronology 4, 140–147. <a href="https://doi.org/10.1016/j.quageo.2008.11.001">https://doi.org/10.1016/j.quageo.2008.11.001</a></p>
+</div>
+<div>
+<p>Ascough, P.L., Bird, M.I., Meredith, W., Wood, R.E., Snape, C.E., Brock, F., Higham, T.F.G., Large, D.J., Apperley, D.C., 2010. Hydropyrolysis: Implications for Radiocarbon Pretreatment and Characterization of Black Carbon. Radiocarbon 52, 1336–1350.</p>
+</div>
+<div>
+<p>Australian Geoscience Information Network, 2020.</p>
+</div>
+<div>
+<p>Barker, P.A., Fontes, J.-C., Gasse, F., 1994. Experimental dissolution of diatom silica in concentrated salt solutions and implications for paleoenvironmental reconstruction. Limnology and Oceanography 39, 99–110. <a href="https://doi.org/10.4319/lo.1994.39.1.0099">https://doi.org/10.4319/lo.1994.39.1.0099</a></p>
+</div>
+<div>
+<p>Battarbee, R.W., Jones, V.J., Flower, R.J., Cameron, N.G., Bennion, H., Carvalho, L., Juggins, S., 2002. Diatoms, in: Smol, J.P., Birks, H.J.B., Last, W.M., Bradley, R.S., Alverson, K. (Eds.), Tracking Environmental Change Using Lake Sediments. Kluwer Academic Publishers, Dordrecht, pp. 155–202. <a href="https://doi.org/10.1007/0-306-47668-1_8">https://doi.org/10.1007/0-306-47668-1_8</a></p>
+</div>
+<div>
+<p>Bayliss, A., 2009. Rolling Out Revolution: Using Radiocarbon Dating in Archaeology. Radiocarbon 51, 123–147. <a href="https://doi.org/10.1017/S0033822200033750">https://doi.org/10.1017/S0033822200033750</a></p>
+</div>
+<div>
+<p>Bennett, K.D., Willis, K.J., 2002. Pollen, in: Smol, J.P., Birks, H.J.B., Last, W.M., Bradley, R.S., Alverson, K. (Eds.), Tracking Environmental Change Using Lake Sediments. Kluwer Academic Publishers, Dordrecht, pp. 5–32. <a href="https://doi.org/10.1007/0-306-47668-1_2">https://doi.org/10.1007/0-306-47668-1_2</a></p>
+</div>
+<div>
+<p>Biggs, A.J.W., Philip, S.R., 1995. Soils of Cape York Penninsula. Queensland Department of Primary Industries, Mareeba.</p>
+</div>
+<div>
+<p>Bird, M.I., 2007. Charcoal. Encyclopedia of Quaternary Science 4, 2950–2958.</p>
+</div>
+<div>
+<p>Bird, M.I., Ascough, P.L., 2012. Isotopes in pyrogenic carbon: A review. Organic Geochemistry 42, 1529–1539. <a href="https://doi.org/10.1016/j.orggeochem.2010.09.005">https://doi.org/10.1016/j.orggeochem.2010.09.005</a></p>
+</div>
+<div>
+<p>Bird, M.I., Ayliffe, L.K., Fifield, L.K., Turney, C.S.M., Cresswell, R.G., Barrows, T.T., David, B., 1999. Radiocarbon Dating of “Old” Charcoal Using a Wet Oxidation, Stepped-Combustion Procedure. Radiocarbon 41, 127–140. <a href="https://doi.org/10.1017/S0033822200019482">https://doi.org/10.1017/S0033822200019482</a></p>
+</div>
+<div>
+<p>Bird, M.I., Levchenko, V., Ascough, P.L., Meredith, W., Wurster, C.M., Williams, A., Tilston, E.L., Snape, C.E., Apperley, D.C., 2014. The efficiency of charcoal decontamination for radiocarbon dating by three pre-treatments – ABOX, ABA and hypy. Quaternary Geochronology 22, 25–32. <a href="https://doi.org/10.1016/j.quageo.2014.02.003">https://doi.org/10.1016/j.quageo.2014.02.003</a></p>
+</div>
+<div>
+<p>Bird, M.I., Turney, C.S.M., Fifield, L.K., Jones, R., Ayliffe, L.K., Palmer, A., Cresswell, R., Robertson, S., 2002. Radiocarbon analysis of the early archaeological site of Nauwalabila I, Arnhem Land, Australia: Implications for sample suitability and stratigraphic integrity. Quaternary Science Reviews 21, 1061–1075. <a href="https://doi.org/10.1016/S0277-3791(01)00058-0">https://doi.org/10.1016/S0277-3791(01)00058-0</a></p>
+</div>
+<div>
+<p>Björck, S., Bennike, O., Possnert, G., Wohlfarth, B., Digerfeldt, G., 1998. A high-resolution 14C dated sediment sequence from southwest Sweden: Age comparisons between different components of the sediment. Journal of Quaternary Science 13, 85–89.</p>
+</div>
+<div>
+<p>Blaauw, M., Christen, J.A., 2019. Rbacon: Age-depth modelling using bayesian statistics.</p>
+</div>
+<div>
+<p>BOM, 2019. Rose of Wind direction versus Wind speed in km/h [WWW Document]. URL <a href="http://www.bom.gov.au/cgi-bin/climate/cgi_bin_scripts/windrose_selector.cgi?period=MaytoSep&amp;type=9&amp;location=27042">http://www.bom.gov.au/cgi-bin/climate/cgi_bin_scripts/windrose_selector.cgi?period=MaytoSep&amp;type=9&amp;location=27042</a> (accessed 7.25.2020).</p>
+</div>
+<div>
+<p>BOM, 2018. Monthly Climate Statistics: Horn Island [WWW Document]. URL <a href="http://www.bom.gov.au/climate/averages/tables/cw_027058.shtml">http://www.bom.gov.au/climate/averages/tables/cw_027058.shtml</a> (accessed 7.25.2020).</p>
+</div>
+<div>
+<p>BOM, 2010. Australian Climate Influences [WWW Document]. URL <a href="http://www.bom.gov.au/climate/about/australian-climate-influences.shtml#page-top">http://www.bom.gov.au/climate/about/australian-climate-influences.shtml#page-top</a> (accessed 7.25.2020).</p>
+</div>
+<div>
+<p>Bowman, D.M.J.S., Balch, J.K., Artaxo, P., Bond, W.J., Carlson, J.M., Cochrane, M.A., D’Antonio, C.M., DeFries, R.S., Doyle, J.C., Harrison, S.P., Johnston, F.H., Keeley, J.E., Krawchuk, M.A., Kull, C.A., Marston, J.B., Moritz, M.A., Prentice, I.C., Roos, C.I., Scott, A.C., Swetnam, T.W., Werf, G.R. van der, Pyne, S.J., 2009. Fire in the Earth System. Science 324, 481–484. <a href="https://doi.org/10.1126/science.1163886">https://doi.org/10.1126/science.1163886</a></p>
+</div>
+<div>
+<p>Bowman, D.M.J.S., Brown, G.K., Braby, M.F., Brown, J.R., Cook, L.G., Crisp, M.D., Ford, F., Haberle, S., Hughes, J., Isagi, Y., Joseph, L., McBride, J., Nelson, G., Ladiges, P.Y., 2010. Biogeography of the Australian monsoon tropics. Journal of Biogeography 37, 201–216. <a href="https://doi.org/10.1111/j.1365-2699.2009.02210.x">https://doi.org/10.1111/j.1365-2699.2009.02210.x</a></p>
+</div>
+<div>
+<p>Bronk Ramsey, C., 2008. Radiocarbon dating: Revolutions in understanding. Archaeometry 50, 249–275. <a href="https://doi.org/10.1111/j.1475-4754.2008.00394.x">https://doi.org/10.1111/j.1475-4754.2008.00394.x</a></p>
+</div>
+<div>
+<p>Brooke, B.P., Nichol, S.L., Huang, Z., Beaman, R.J., 2017. Palaeoshorelines on the Australian continental shelf: Morphology, sea-level relationship and applications to environmental management and archaeology. Continental Shelf Research 134, 26–38. <a href="https://doi.org/10.1016/j.csr.2016.12.012">https://doi.org/10.1016/j.csr.2016.12.012</a></p>
+</div>
+<div>
+<p>Burrows, M.A., Heijnis, H., Gadd, P., Haberle, S.G., 2016. A new late Quaternary palaeohydrological record from the humid tropics of northeastern Australia. Palaeogeography, Palaeoclimatology, Palaeoecology 451, 164–182. <a href="https://doi.org/10.1016/j.palaeo.2016.03.003">https://doi.org/10.1016/j.palaeo.2016.03.003</a></p>
+</div>
+<div>
+<p>Carcaillet, C., Bouvier, M., Fréchette, B., Larouche, A.C., Richard, P.J., 2001. Comparison of pollen-slide and sieving methods in lacustrine charcoal analyses for local and regional fire history. The Holocene 11, 467–476.</p>
+</div>
+<div>
+<p>Catalan, J., Pla-Rabés, S., Wolfe, A.P., Smol, J.P., Rühland, K.M., Anderson, N.J., Kopáček, J., Stuchlík, E., Schmidt, R., Koinig, K.A., Camarero, L., Flower, R.J., Heiri, O., Kamenik, C., Korhola, A., Leavitt, P.R., Psenner, R., Renberg, I., 2013. Global change revealed by palaeolimnological records from remote lakes: A review. Journal of Paleolimnology 49, 513–535. <a href="https://doi.org/10.1007/s10933-013-9681-2">https://doi.org/10.1007/s10933-013-9681-2</a></p>
+</div>
+<div>
+<p>Chappell, J., Head, J., Magee, J., 1996. Beyond the radiocarbon limit in Australian archaeology and Quaternary research. Antiquity 70, 543–552. <a href="https://doi.org/10.1017/S0003598X00083708">https://doi.org/10.1017/S0003598X00083708</a></p>
+</div>
+<div>
+<p>Chellman, N.J., McConnell, J.R., Heyvaert, A., Vannière, B., Arienzo, M.M., Wennrich, V., 2018. Incandescence-based single-particle method for black carbon quantification in lake sediment cores: <em>Black</em> <em>Carbon in Lake Sediments</em>. Limnol. Oceanogr. Methods 16, 711–721. <a href="https://doi.org/10.1002/lom3.10276">https://doi.org/10.1002/lom3.10276</a></p>
+</div>
+<div>
+<p>Chen, J., Wan, G., Zhang, D.D., Zhang, F., Huang, R., 2004. Environmental records of lacustrine sediments in different time scales: Sediment grain size as an example. Science in China Series D: Earth Sciences 47, 954–960. <a href="https://doi.org/10.1360/03yd0160">https://doi.org/10.1360/03yd0160</a></p>
+</div>
+<div>
+<p>Chiu, T.-c., Fairbanks, R.G., Mortlock, R.A., Bloom, A.L., 2005. Extending the radiocarbon calibration beyond 26,000 years before present using fossil corals. Quaternary Science Reviews 24, 1797–1808. <a href="https://doi.org/10.1016/j.quascirev.2005.04.002">https://doi.org/10.1016/j.quascirev.2005.04.002</a></p>
+</div>
+<div>
+<p>Chivas, A.R., Garcia, A., van der Kaars, S., Couapel, M.J.J., Holt, S., Reeves, J.M., Wheeler, D.J., Switzer, A.D., Murray-Wallace, C.V., Banerjee, D., Price, D.M., Wang, S.X., Pearson, G., Edgar, N., Beaufort, L., De Deckker, P., Lawson, E., Cecil, C., 2001. Sea-level and environmental changes since the last interglacial in the Gulf of Carpentaria, Australia: An overview. Quaternary International 83-85, 19–46. <a href="https://doi.org/10.1016/S1040-6182(01)00029-5">https://doi.org/10.1016/S1040-6182(01)00029-5</a></p>
+</div>
+<div>
+<p>Clark, P.U., Shakun, J.D., Baker, P.A., Bartlein, P.J., Brewer, S., Brook, E., Carlson, A.E., Cheng, H., Kaufman, D.S., Liu, Z., Marchitto, T.M., Mix, A.C., Morrill, C., Otto-Bliesner, B.L., Pahnke, K., Russell, J.M., Whitlock, C., Adkins, J.F., Blois, J.L., Clark, J., Colman, S.M., Curry, W.B., Flower, B.P., He, F., Johnson, T.C., Lynch-Stieglitz, J., Markgraf, V., McManus, J., Mitrovica, J.X., Moreno, P.I., Williams, J.W., 2012. Global climate evolution during the last deglaciation. Proceedings of the National Academy of Sciences 109, E1134–E1142. <a href="https://doi.org/10.1073/pnas.1116619109">https://doi.org/10.1073/pnas.1116619109</a></p>
+</div>
+<div>
+<p>Clarkson, C., Jacobs, Z., Marwick, B., Fullagar, R., Wallis, L., Smith, M., Roberts, R.G., Hayes, E., Lowe, K., Carah, X., Florin, S.A., McNeil, J., Cox, D., Arnold, L.J., Hua, Q., Huntley, J., Brand, H.E.A., Manne, T., Fairbairn, A., Shulmeister, J., Lyle, L., Salinas, M., Page, M., Connell, K., Park, G., Norman, K., Murphy, T., Pardoe, C., 2017. Human occupation of northern Australia by 65,000 years ago. Nature 547, 306–310. <a href="https://doi.org/10.1038/nature22968">https://doi.org/10.1038/nature22968</a></p>
+</div>
+<div>
+<p>Clymo, R.S., Mackay, D., 1987. Upwash and downwash or pollen and spores in the unsaturated surface layer of spahgum-dominated peat. New Phytol 105, 175–183. <a href="https://doi.org/10.1111/j.1469-8137.1987.tb00120.x">https://doi.org/10.1111/j.1469-8137.1987.tb00120.x</a></p>
+</div>
+<div>
+<p>Cohen, A.S., 2003. Paleolimnology : The history and evolution of lake systems. Oxford University Press, New York.</p>
+</div>
+<div>
+<p>Commonwealth of Australia, (.A., 2018. Unfiltered summary of all water observations [WWW Document]. URL <a href="https://maps.dea.ga.gov.au/">https://maps.dea.ga.gov.au/</a> (accessed 7.25.2020).</p>
+</div>
+<div>
+<p>Conedera, M., Tinner, W., Neff, C., Meurer, M., Dickens, A.F., Krebs, P., 2009. Reconstructing past fire regimes: Methods, applications, and relevance to fire management and conservation. Quaternary Science Reviews 28, 555–576. <a href="https://doi.org/10.1016/j.quascirev.2008.11.005">https://doi.org/10.1016/j.quascirev.2008.11.005</a></p>
+</div>
+<div>
+<p>Conroy, J.L., Overpeck, J.T., Cole, J.E., Shanahan, T.M., Steinitz-Kannan, M., 2008. Holocene changes in eastern tropical Pacific climate inferred from a Galápagos lake sediment record. Quaternary Science Reviews 27, 1166–1180. <a href="https://doi.org/10.1016/j.quascirev.2008.02.015">https://doi.org/10.1016/j.quascirev.2008.02.015</a></p>
+</div>
+<div>
+<p>Daniau, A.-L., Desprat, S., Aleman, J.C., Bremond, L., Davis, B., Fletcher, W., Marlon, J.R., Marquer, L., Montade, V., Morales-Molino, C., Naughton, F., Rius, D., Urrego, D.H., 2019. Terrestrial plant microfossils in palaeoenvironmental studies, pollen, microcharcoal and phytolith. Towards a comprehensive understanding of vegetation, fire and climate changes over the past one million years. Revue de Micropaléontologie. <a href="https://doi.org/10.1016/j.revmic.2019.02.001">https://doi.org/10.1016/j.revmic.2019.02.001</a></p>
+</div>
+<div>
+<p>David, B., Delannoy, J.-J., Mialanes, J., Clarkson, C., Petchey, F., Geneste, J.-M., Manne, T., Bird, M.I., Barker, B., Richards, T., Chalmin, E., Castets, G., 2019. 45,610–52,160 years of site and landscape occupation at Nawarla Gabarnmang, Arnhem Land plateau (northern Australia). Quaternary Science Reviews 215, 64–85. <a href="https://doi.org/10.1016/j.quascirev.2019.04.027">https://doi.org/10.1016/j.quascirev.2019.04.027</a></p>
+</div>
+<div>
+<p>De Deckker, P., 2001. Late Quaternary cyclic aridity in tropical Australia. Palaeogeography, Palaeoclimatology, Palaeoecology 170, 1–9. <a href="https://doi.org/10.1016/S0031-0182(01)00233-4">https://doi.org/10.1016/S0031-0182(01)00233-4</a></p>
+</div>
+<div>
+<p>De Deckker, P., Corrège, T., Head, J., 1991. Late Pleistocene record of cyclic eolian activity from tropical Australia suggesting the Younger Dryas is not an unusual climatic event. Geology 19, 602–605. <a href="https://doi.org/10.1130/0091-7613(1991)019%3C0602:LPROCE%3E2.3.CO;2">https://doi.org/10.1130/0091-7613(1991)019&lt;0602:LPROCE&gt;2.3.CO;2</a></p>
+</div>
+<div>
+<p>De Deckker, P., Tapper, N.J., van der Kaars, S., 2003. The status of the Indo-Pacific Warm Pool and adjacent land at the Last Glacial Maximum. Global and Planetary Change 35, 25–35. <a href="https://doi.org/10.1016/S0921-8181(02)00089-9">https://doi.org/10.1016/S0921-8181(02)00089-9</a></p>
+</div>
+<div>
+<p>Denniston, R.F., Asmerom, Y., Polyak, V.J., Wanamaker, A.D., Ummenhofer, C.C., Humphreys, W.F., Cugley, J., Woods, D., Lucker, S., 2017. Decoupling of monsoon activity across the northern and southern Indo-Pacific during the Late Glacial. Quaternary Science Reviews 176, 101–105. <a href="https://doi.org/10.1016/j.quascirev.2017.09.014">https://doi.org/10.1016/j.quascirev.2017.09.014</a></p>
+</div>
+<div>
+<p>Denniston, R.F., Wyrwoll, K.-H., Asmerom, Y., Polyak, V.J., Humphreys, W.F., Cugley, J., Woods, D., LaPointe, Z., Peota, J., Greaves, E., 2013. North Atlantic forcing of millennial-scale Indo-Australian monsoon dynamics during the Last Glacial period. Quaternary Science Reviews 72, 159–168. <a href="https://doi.org/10.1016/j.quascirev.2013.04.012">https://doi.org/10.1016/j.quascirev.2013.04.012</a></p>
+</div>
+<div>
+<p>Denniston, R.F., Wyrwoll, K.-H., Polyak, V.J., Brown, J.R., Asmerom, Y., Wanamaker, A.D., LaPointe, Z., Ellerbroek, R., Barthelmes, M., Cleary, D., Cugley, J., Woods, D., Humphreys, W.F., 2013. A Stalagmite record of Holocene Indonesian–Australian summer monsoon variability from the Australian tropics. Quaternary Science Reviews 78, 155–168. <a href="https://doi.org/10.1016/j.quascirev.2013.08.004">https://doi.org/10.1016/j.quascirev.2013.08.004</a></p>
+</div>
+<div>
+<p>Devriendt, L., 2011. Late quaternary environment of Palaeolake Carpentaria inferred from the chemistry of ostracod valves. University of Wollongong, Wollongong.</p>
+</div>
+<div>
+<p>Diefendorf, A.F., Mueller, K.E., Wing, S.L., Koch, P.L., Freeman, K.H., 2010. Global patterns in leaf 13C discrimination and implications for studies of past and future climate. PNAS 107, 5738–5743. <a href="https://doi.org/10.1073/pnas.0910513107">https://doi.org/10.1073/pnas.0910513107</a></p>
+</div>
+<div>
+<p>Diffenbaugh, N.S., Singh, D., Mankin, J.S., Horton, D.E., Swain, D.L., Touma, D., Charland, A., Liu, Y., Haugen, M., Tsiang, M., Rajaratnam, B., 2017. Quantifying the influence of global warming on unprecedented extreme climate events. Proc Natl Acad Sci USA 114, 4881–4886. <a href="https://doi.org/10.1073/pnas.1618082114">https://doi.org/10.1073/pnas.1618082114</a></p>
+</div>
+<div>
+<p>Dinerstein, E., Olson, D., Joshi, A., Vynne, C., Burgess, N.D., Wikramanayake, E., Hahn, N., Palminteri, S., Hedao, P., Noss, R., Hansen, M., Locke, H., Ellis, E.C., Jones, B., Barber, C.V., Hayes, R., Kormos, C., Martin, V., Crist, E., Sechrest, W., Price, L., Baillie, J.E.M., Weeden, D., Suckling, K., Davis, C., Sizer, N., Moore, R., Thau, D., Birch, T., Potapov, P., Turubanova, S., Tyukavina, A., de Souza, N., Pintea, L., Brito, J.C., Llewellyn, O.A., Miller, A.G., Patzelt, A., Ghazanfar, S.A., Timberlake, J., Klöser, H., Shennan-Farpón, Y., Kindt, R., Lillesø, J.-P.B., van Breugel, P., Graudal, L., Voge, M., Al-Shammari, K.F., Saleem, M., 2017. An Ecoregion-Based Approach to Protecting Half the Terrestrial Realm. BioScience 67, 534–545. <a href="https://doi.org/10.1093/biosci/bix014">https://doi.org/10.1093/biosci/bix014</a></p>
+</div>
+<div>
+<p>DiNezio, P.N., Tierney, J.E., 2013. The effect of sea level on glacial Indo-Pacific climate. Nature Geosci 6, 485–491. <a href="https://doi.org/10.1038/ngeo1823">https://doi.org/10.1038/ngeo1823</a></p>
+</div>
+<div>
+<p>Di Nezio, P.N., Timmermann, A., Tierney, J.E., Jin, F., Otto‐Bliesner, B., Rosenbloom, N., Mapes, B., Neale, R., Ivanovic, R.F., Montenegro, A., 2016. The climate response of the Indo‐Pacific warm pool to glacial sea level. Paleoceanography 31, 866–894. <a href="https://doi.org/10.1002/2015PA002890">https://doi.org/10.1002/2015PA002890</a></p>
+</div>
+<div>
+<p>Douglas, P., Brenner, M., Curtis, J.H., 2016. Methods and future directions for paleoclimatology in the Maya Lowlands. Global and Planetary Change 138, 3–24. <a href="https://doi.org/10.1016/j.gloplacha.2015.07.008">https://doi.org/10.1016/j.gloplacha.2015.07.008</a></p>
+</div>
+<div>
+<p>Environment &amp; Science, D. of, 2018. WetlandInfo: Wetland systems [WWW Document]. URL <a href="https://wetlandinfo.des.qld.gov.au/wetlands">https://wetlandinfo.des.qld.gov.au/wetlands</a> (accessed 3.8.2020).</p>
+</div>
+<div>
+<p>Environment Science Services, (., 1995. Stage 1 Overview Reports: Thematic Report 1 of 3 - Natural Resources and Ecology. Cape York Peninsula Land Use Strategy, Department of the Premier, Economic and Trade Development, Brisbane; Canberra.</p>
+</div>
+<div>
+<p>Evans, J., Russell-Smith, J., 2020. Delivering effective savanna fire management for defined biodiversity conservation outcomes: An Arnhem Land case study. Int. J. Wildland Fire 29, 386. <a href="https://doi.org/10.1071/WF18126">https://doi.org/10.1071/WF18126</a></p>
+</div>
+<div>
+<p>Field, E., Marx, S., Haig, J., May, J.-H., Jacobsen, G., Zawadzki, A., Child, D., Heijnis, H., Hotchkis, M., McGowan, H., Moss, P.T., 2018. Untangling geochronological complexity in organic spring deposits using multiple dating methods. Quaternary Geochronology 43, 50–71. <a href="https://doi.org/10.1016/j.quageo.2017.10.002">https://doi.org/10.1016/j.quageo.2017.10.002</a></p>
+</div>
+<div>
+<p>Field, E., McGowan, H.A., Moss, P.T., Marx, S.K., 2017. A late Quaternary record of monsoon variability in the northwest Kimberley, Australia. Quaternary International 449, 119–135. <a href="https://doi.org/10.1016/j.quaint.2017.02.019">https://doi.org/10.1016/j.quaint.2017.02.019</a></p>
+</div>
+<div>
+<p>Field, E., Tyler, J., Gadd, P.S., Moss, P., McGowan, H., Marx, S., 2018. Coherent patterns of environmental change at multiple organic spring sites in northwest Australia: Evidence of Indonesian-Australian summer monsoon variability over the last 14,500 years. Quaternary Science Reviews 196, 193–216. <a href="https://doi.org/10.1016/j.quascirev.2018.07.018">https://doi.org/10.1016/j.quascirev.2018.07.018</a></p>
+</div>
+<div>
+<p>Fink, D., Hotchkis, M., Hua, Q., Jacobsen, G., Smith, A.M., Zoppi, U., Child, D., Mifsud, C., van der Gaast, H., Williams, A., Williams, M., 2004. The ANTARES AMS facility at ANSTO. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms 223-224, 109–115. <a href="https://doi.org/10.1016/j.nimb.2004.04.025">https://doi.org/10.1016/j.nimb.2004.04.025</a></p>
+</div>
+<div>
+<p>Fletcher, W.J., Zielhofer, C., Mischke, S., Bryant, C., Xu, X., Fink, D., 2017. AMS radiocarbon dating of pollen concentrates in a karstic lake system. Quaternary Geochronology 39, 112–123. <a href="https://doi.org/10.1016/j.quageo.2017.02.006">https://doi.org/10.1016/j.quageo.2017.02.006</a></p>
+</div>
+<div>
+<p>Fox, I.D., Neldner, V.J., Wilson, G.W., Bannink, P.J., 2001. The Vegetation of the Australian Tropical Savannas. Environmental Protection Agency, Brisbane.</p>
+</div>
+<div>
+<p>Frank, D., Reichstein, M., Bahn, M., Thonicke, K., Frank, D., Mahecha, M.D., Smith, P., Velde, M. van der, Vicca, S., Babst, F., Beer, C., Buchmann, N., Canadell, J.G., Ciais, P., Cramer, W., Ibrom, A., Miglietta, F., Poulter, B., Rammig, A., Seneviratne, S.I., Walz, A., Wattenbach, M., Zavala, M.A., Zscheischler, J., 2015. Effects of climate extremes on the terrestrial carbon cycle: Concepts, processes and potential future impacts. Global Change Biology 21, 2861–2880. <a href="https://doi.org/10.1111/gcb.12916">https://doi.org/10.1111/gcb.12916</a></p>
+</div>
+<div>
+<p>Gagan, M.K., Hendy, E.J., Haberle, S.G., Hantoro, W.S., 2004. Post-glacial evolution of the Indo-Pacific Warm Pool and El Niño-Southern oscillation. Quaternary International 118-119, 127–143. <a href="https://doi.org/10.1016/S1040-6182(03)00134-4">https://doi.org/10.1016/S1040-6182(03)00134-4</a></p>
+</div>
+<div>
+<p>Gasse, E., Street, F.A., 1978. Late Quaternary Lake-level fluctuations and environments of the northern Rift valley and Afar region (Ethiopia and Djibouti). Palaeogeography, Palaeoclimatology, Palaeoecology 24, 279–"295, 297, 299–325". <a href="https://doi.org/10.1016/0031-0182(78)90011-1">https://doi.org/10.1016/0031-0182(78)90011-1</a></p>
+</div>
+<div>
+<p>Gasse, F., 1987. Diatoms for reconstructing palaeoenvironments and paleohydrology in tropical semi-arid zones. Hydrobiologia 154, 127–163. <a href="https://doi.org/10.1007/BF00026837">https://doi.org/10.1007/BF00026837</a></p>
+</div>
+<div>
+<p>Gee, G.W., Bauder, J.W., 1986. Particle-size analysis. Methods of soil analysis. Part 1. Physical and mineralogical methods.</p>
+</div>
+<div>
+<p>Gentilli, J. (Ed.), 1971. Climates of Australia and New Zealand, World survey of climatology. Elsevier Pub. Co, Amsterdam, New York.</p>
+</div>
+<div>
+<p>Geoscience-Australia, 2015. SRTM 1 sec DEM Image, Dataset.</p>
+</div>
+<div>
+<p>Gill, A.M., Ryan, P.G., Moore, P.H.R., Gibson, M., 2000. Fire regimes of World Heritage Kakadu National Park., Australia. Austral Ecology 25, 616–625. <a href="https://doi.org/10.1111/j.1442-9993.2000.tb00067.x">https://doi.org/10.1111/j.1442-9993.2000.tb00067.x</a></p>
+</div>
+<div>
+<p>Gillespie, R., 2019. A novel cellulose-preparation method. Radiocarbon 61, 1–9. <a href="https://doi.org/10.1017/RDC.2018.65">https://doi.org/10.1017/RDC.2018.65</a></p>
+</div>
+<div>
+<p>Gillespie, R., Hammond, A.P., Goh, K.M., Tonkin, P.J., Lowe, D.C., Sparks, R.J., Wallace, G., 1992. AMS dating of a late Quaternary tephra at Graham’s Terrace, New Zealand. Radiocarbon; Vol 34, No 1 (1992).</p>
+</div>
+<div>
+<p>Griffiths, M.L., Drysdale, R.N., Gagan, M.K., Zhao, J.-x., Ayliffe, L.K., Hellstrom, J.C., Hantoro, W.S., Frisia, S., Feng, Y.-x., Cartwright, I., Pierre, E.S., Fischer, M.J., Suwargadi, B.W., 2009. Increasing Australian–Indonesian monsoon rainfall linked to early Holocene sea-level rise. Nature Geoscience 2, 636–639. <a href="https://doi.org/10.1038/ngeo605">https://doi.org/10.1038/ngeo605</a></p>
+</div>
+<div>
+<p>Griffiths, M.L., Drysdale, R.N., Gagan, M.K., Zhao, J.-x., Hellstrom, J.C., Ayliffe, L.K., Hantoro, W.S., 2013. Abrupt increase in east Indonesian rainfall from flooding of the Sunda Shelf ∼9500 years ago. Quaternary Science Reviews, Linking Southern Hemisphere records and past circulation patterns: The AUS-INTIMATE project 74, 273–279. <a href="https://doi.org/10.1016/j.quascirev.2012.07.006">https://doi.org/10.1016/j.quascirev.2012.07.006</a></p>
+</div>
+<div>
+<p>Grimes, K., Spate, A., 2008. Laterite karst. ACKMA Journal 73, 49–52.</p>
+</div>
+<div>
+<p>Haberle, S.G., 2005. A 23,000-yr Pollen Record from Lake Euramoo, Wet Tropics of NE Queensland, Australia. Quaternary Research 64, 343–356. <a href="https://doi.org/10.1016/j.yqres.2005.08.013">https://doi.org/10.1016/j.yqres.2005.08.013</a></p>
+</div>
+<div>
+<p>Haberle, S.G., Hope, G.S., van der Kaars, S., 2001. Biomass burning in Indonesia and Papua New Guinea: Natural and human induced fire events in the fossil record. Palaeogeography, Palaeoclimatology, Palaeoecology 171, 259–268. <a href="https://doi.org/10.1016/S0031-0182(01)00248-6">https://doi.org/10.1016/S0031-0182(01)00248-6</a></p>
+</div>
+<div>
+<p>Harris, P.T., Heap, A.D., Marshall, J.F., McCulloch, M., 2008. A new coral reef province in the Gulf of Carpentaria, Australia: Colonisation, growth and submergence during the early Holocene. Marine Geology 251, 85–97. <a href="https://doi.org/10.1016/j.margeo.2008.02.010">https://doi.org/10.1016/j.margeo.2008.02.010</a></p>
+</div>
+<div>
+<p>Hatté, C., Morvan, J., Noury, C., Paterne, M., 2001. Is Classical Acid-Alkali-Acid Treatment Responsible for Contamination? An Alternative Proposition. Radiocarbon 43, 177–182. <a href="https://doi.org/10.1017/S003382220003798X">https://doi.org/10.1017/S003382220003798X</a></p>
+</div>
+<div>
+<p>Håkanson, L., Jansson, M., 1983. Principles of lake sedimentology. Springer-Verlag, Berlin ; New York.</p>
+</div>
+<div>
+<p>Head, L., Fullager, R., 1992. Palaeoecology and archaeology in the east Kimberley. Quaternary Australasia 10, 27–31.</p>
+</div>
+<div>
+<p>Higham, T.F.G., Barton, H., Turney, C.S.M., Barker, G., Ramsey, C.B., Brock, F., 2009. Radiocarbon dating of charcoal from tropical sequences: Results from the Niah Great Cave, Sarawak, and their broader implications. Journal of Quaternary Science 24, 189–197. <a href="https://doi.org/10.1002/jqs.1197">https://doi.org/10.1002/jqs.1197</a></p>
+</div>
+<div>
+<p>Higham, T.F.G., Bronk Ramsey, C., Brock, F., Baker, D., Ditchfield, P., 2011. Radiocarbon dates from the Oxford AMS System: Datelist 34. Archaeometry 53, 1067–1084. <a href="https://doi.org/10.1111/j.1475-4754.2010.00574.x">https://doi.org/10.1111/j.1475-4754.2010.00574.x</a></p>
+</div>
+<div>
+<p>Higuera, P.E., Gavin, D.G., Bartlein, P.J., Hallett, D.J., 2010. Peak detection in sediment - charcoal records: Impacts of alternative data analysis methods on fire-history interpretations. Int. J. Wildland Fire 19, 996. <a href="https://doi.org/10.1071/WF09134">https://doi.org/10.1071/WF09134</a></p>
+</div>
+<div>
+<p>Hitchcock, P., Kennard, M., Leaver, B., Mackey, B., Stanton, P., Valentine, P., Vanderduys, E., Wannan, B., Willmott, W., Woinarski, J., 2013. The natural attributes for World Heritage nomination of Cape York Peninsula, Australia.</p>
+</div>
+<div>
+<p>Hogg, A.G., Hua, Q., Blackwell, P.G., Niu, M., Buck, C.E., Guilderson, T.P., Heaton, T.J., Palmer, J.G., Reimer, P.J., Reimer, R.W., Turney, C.S.M., Zimmerman, S.R.H., 2013. SHCal13 Southern Hemisphere Calibration, 0–50,000 Years cal BP. Radiocarbon 55, 1889–1903. <a href="https://doi.org/10.2458/azu_js_rc.55.16783">https://doi.org/10.2458/azu_js_rc.55.16783</a></p>
+</div>
+<div>
+<p>Hu, F.S., Shemesh, A., 2003. A biogenic-silica δ18O record of climatic change during the last glacial–interglacial transition in southwestern Alaska. Quaternary Research 59, 379–385. <a href="https://doi.org/10.1016/S0033-5894(03)00056-5">https://doi.org/10.1016/S0033-5894(03)00056-5</a></p>
+</div>
+<div>
+<p>Hua, Q., Jacobsen, G.E., Zoppi, U., Lawson, E.M., Williams, A.A., McGann, M.J., 2001. Progress In Radiocarbon Target Preparation At The Antares Ams Centre. Radiocarbon; Vol 43, No 2A (2001).</p>
+</div>
+<div>
+<p>Jiang, D., Tian, Z., Lang, X., Kageyama, M., Ramstein, G., 2015. The concept of global monsoon applied to the last glacial maximum: A multi-model analysis. Quaternary Science Reviews 126, 126–139. <a href="https://doi.org/10.1016/j.quascirev.2015.08.033">https://doi.org/10.1016/j.quascirev.2015.08.033</a></p>
+</div>
+<div>
+<p>Jones, M.R., Torgersen, T., 1988. Late quaternary evolution of Lake Carpentaria on the Australia-New Guinea continental shelf. Australian Journal of Earth Sciences 35, 313–324. <a href="https://doi.org/10.1080/08120098808729450">https://doi.org/10.1080/08120098808729450</a></p>
+</div>
+<div>
+<p>Kealhofer, L., Piperno, D.R., 1998. Opal Phytoliths in Southeast Asian Flora. Smithsonian Contributions to Botany 1–39. <a href="https://doi.org/10.5479/si.0081024X.88">https://doi.org/10.5479/si.0081024X.88</a></p>
+</div>
+<div>
+<p>Kershaw, A.P., 1994. Pleistocene vegetation of the humid tropics of northeastern Queensland, Australia. Palaeogeography, Palaeoclimatology, Palaeoecology 109, 399–412. <a href="https://doi.org/10.1016/0031-0182(94)90188-0">https://doi.org/10.1016/0031-0182(94)90188-0</a></p>
+</div>
+<div>
+<p>Kershaw, A.P., Bretherton, S.C., van der Kaars, S., 2007. A complete pollen record of the last 230 ka from Lynch’s Crater, north-eastern Australia. Palaeogeography, Palaeoclimatology, Palaeoecology 251, 23–45. <a href="https://doi.org/10.1016/j.palaeo.2007.02.015">https://doi.org/10.1016/j.palaeo.2007.02.015</a></p>
+</div>
+<div>
+<p>Kershaw, A.P., Nix, H.A., 1988. Quantitative Palaeoclimatic Estimates from Pollen Data Using Bioclimatic Profiles of Extant Taxa. Journal of Biogeography 15, 589. <a href="https://doi.org/10.2307/2845438">https://doi.org/10.2307/2845438</a></p>
+</div>
+<div>
+<p>Kershaw, P., van der Kaars, S., 2012. Australia and the Southwest Pacific, in: Metcalfe, S.E., Nash, D.J. (Eds.), Quaternary Environmental Change in the Tropics. John Wiley &amp; Sons, Ltd, Chichester, UK, pp. 236–262. <a href="https://doi.org/10.1002/9781118336311.ch7">https://doi.org/10.1002/9781118336311.ch7</a></p>
+</div>
+<div>
+<p>Kilian, M.R., van der Plicht, J., van Geel, B., Goslar, T., 2002. Problematic 14C-AMS dates of pollen concentrates from Lake Gosciaz (Poland). Quaternary International 88, 21–26. <a href="https://doi.org/10.1016/S1040-6182(01)00070-2">https://doi.org/10.1016/S1040-6182(01)00070-2</a></p>
+</div>
+<div>
+<p>Kitagawa, H., Tareq, S.M., Matsuzaki, H., Inoue, N., Tanoue, E., Yasuda, Y., 2007. Radiocarbon concentration of lake sediment cellulose from Lake Erhai in southwest China. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms 259, 526–529. <a href="https://doi.org/10.1016/j.nimb.2007.01.195">https://doi.org/10.1016/j.nimb.2007.01.195</a></p>
+</div>
+<div>
+<p>Krause, C.E., Gagan, M.K., Dunbar, G.B., Hantoro, W.S., Hellstrom, J.C., Cheng, H., Edwards, R.L., Suwargadi, B.W., Abram, N.J., Rifai, H., 2019. Spatio-temporal evolution of Australasian monsoon hydroclimate over the last 40,000 years. Earth and Planetary Science Letters 513, 103–112. <a href="https://doi.org/10.1016/j.epsl.2019.01.045">https://doi.org/10.1016/j.epsl.2019.01.045</a></p>
+</div>
+<div>
+<p>Lamb, A.L., Leng, M.J., Sloane, H.J., Telford, R.J., 2005. A comparison of the palaeoclimate signals from diatom oxygen isotope ratios and carbonate oxygen isotope ratios from a low latitude crater lake. Palaeogeography, Palaeoclimatology, Palaeoecology 223, 290–302. <a href="https://doi.org/10.1016/j.palaeo.2005.04.011">https://doi.org/10.1016/j.palaeo.2005.04.011</a></p>
+</div>
+<div>
+<p>Lambeck, K., Rouby, H., Purcell, A., Sun, Y., Sambridge, M., 2014. Sea level and global ice volumes from the Last Glacial Maximum to the Holocene. Proc Natl Acad Sci USA 111, 15296. <a href="https://doi.org/10.1073/pnas.1411762111">https://doi.org/10.1073/pnas.1411762111</a></p>
+</div>
+<div>
+<p>Lees, B., 2006. Timing and Formation of Coastal Dunes in Northern and Eastern Australia. Journal of Coastal Research 221, 78–89. <a href="https://doi.org/10.2112/05A-0007.1">https://doi.org/10.2112/05A-0007.1</a></p>
+</div>
+<div>
+<p>Lees, B.G., 1992. Geomorphological evidence for late Holocene climatic change in northern Australia. Australian Geographer 23, 1–10. <a href="https://doi.org/10.1080/00049189208703048">https://doi.org/10.1080/00049189208703048</a></p>
+</div>
+<div>
+<p>Lees, B.G., Stanner, J., Price, D.M., Yanchou, L., 1995. Thermoluminescence dating of dune podzols at Cape Arnhem, northern Australia. Marine Geology 129, 63–75. <a href="https://doi.org/10.1016/0025-3227(95)00112-3">https://doi.org/10.1016/0025-3227(95)00112-3</a></p>
+</div>
+<div>
+<p>Lees, B.G., Yanchou, L., Head, J., 1990. Reconnaissance Thermoluminescence Dating of Northern Australian Coastal Dune Systems. Quat. res. 34, 169–185. <a href="https://doi.org/10.1016/0033-5894(90)90029-K">https://doi.org/10.1016/0033-5894(90)90029-K</a></p>
+</div>
+<div>
+<p>Lehmann, C.E.R., Archibald, S.A., Hoffmann, W.A., Bond, W.J., 2011. Deciphering the distribution of the savanna biome. New Phytologist 191, 197–209. <a href="https://doi.org/10.1111/j.1469-8137.2011.03689.x">https://doi.org/10.1111/j.1469-8137.2011.03689.x</a></p>
+</div>
+<div>
+<p>Leng, M.J., Barker, P.A., 2006. A review of the oxygen isotope composition of lacustrine diatom silica for palaeoclimate reconstruction. Earth-Science Reviews 75, 5–27. <a href="https://doi.org/10.1016/j.earscirev.2005.10.001">https://doi.org/10.1016/j.earscirev.2005.10.001</a></p>
+</div>
+<div>
+<p>Leng, M.J., Henderson, A.C.G., 2013. Recent advances in isotopes as palaeolimnological proxies. Journal of Paleolimnology 49, 481–496. <a href="https://doi.org/10.1007/s10933-012-9667-5">https://doi.org/10.1007/s10933-012-9667-5</a></p>
+</div>
+<div>
+<p>Leng, M.J., Marshall, J.D., 2004. Palaeoclimate interpretation of stable isotope data from lake sediment archives. Quaternary Science Reviews 23, 811–831. <a href="https://doi.org/10.1016/j.quascirev.2003.06.012">https://doi.org/10.1016/j.quascirev.2003.06.012</a></p>
+</div>
+<div>
+<p>Lewis, S.E., Sloss, C.R., Murray-Wallace, C.V., Woodroffe, C.D., Smithers, S.G., 2013. Post-glacial sea-level changes around the Australian margin: A review. Quaternary Science Reviews, Linking Southern Hemisphere records and past circulation patterns: The AUS-INTIMATE project 74, 115–138. <a href="https://doi.org/10.1016/j.quascirev.2012.09.006">https://doi.org/10.1016/j.quascirev.2012.09.006</a></p>
+</div>
+<div>
+<p>Luly, J.G., Grindrod, J.F., Penny, D., 2006. Holocene palaeoenvironments and change at Three-Quarter Mile Lake, Silver Plains Station, Cape York Peninsula, Australia. The Holocene 16, 1085–1094. <a href="https://doi.org/10.1177/0959683606069398">https://doi.org/10.1177/0959683606069398</a></p>
+</div>
+<div>
+<p>Mackenzie, L., Heijnis, H., Gadd, P., Moss, P., Shulmeister, J., 2017. Geochemical investigation of the South Wellesley Island wetlands: Insight into wetland development during the Holocene in tropical northern Australia. The Holocene 27, 566–578. <a href="https://doi.org/10.1177/0959683616670219">https://doi.org/10.1177/0959683616670219</a></p>
+</div>
+<div>
+<p>Mackenzie, L., Moss, P., Ulm, S., 2020. A late-Holocene record of coastal wetland development and fire regimes in tropical northern Australia. The Holocene 30, 1379–1390. <a href="https://doi.org/10.1177/0959683620932970">https://doi.org/10.1177/0959683620932970</a></p>
+</div>
+<div>
+<p>Marlon, J.R., Bartlein, P.J., Daniau, A.-L., Harrison, S.P., Maezumi, S.Y., Power, M.J., Tinner, W., Vanniére, B., 2013. Global biomass burning: A synthesis and review of Holocene paleofire records and their controls. Quaternary Science Reviews 65, 5–25. <a href="https://doi.org/10.1016/j.quascirev.2012.11.029">https://doi.org/10.1016/j.quascirev.2012.11.029</a></p>
+</div>
+<div>
+<p>Martin, L., Goff, J., Jacobsen, G., Mooney, S., 2019. The Radiocarbon Ages of Different Organic Components in the Mires of Eastern Australia. Radiocarbon 61, 173–184. <a href="https://doi.org/10.1017/RDC.2018.118">https://doi.org/10.1017/RDC.2018.118</a></p>
+</div>
+<div>
+<p>May, J.H., Marx, S.K., Reynolds, W., Clark-Balzan, L., Jacobsen, G.E., Preusser, F., 2018. Establishing a chronological framework for a late Quaternary seasonal swamp in the Australian “Top End”. Quaternary Geochronology 47, 81–92. <a href="https://doi.org/10.1016/j.quageo.2018.05.010">https://doi.org/10.1016/j.quageo.2018.05.010</a></p>
+</div>
+<div>
+<p>May, J.-H., Preusser, F., Gliganic, L.A., 2015. Refining late Quaternary plunge pool chronologies in Australia’s monsoonal ’Top End’. Quaternary Geochronology 30, 328–333. <a href="https://doi.org/10.1016/j.quageo.2015.01.008">https://doi.org/10.1016/j.quageo.2015.01.008</a></p>
+</div>
+<div>
+<p>Mays, J.L., Brenner, M., Curtis, J.H., Curtis, K.V., Hodell, D.A., Correa-Metrio, A., Escobar, J., Dutton, A.L., Zimmerman, A.R., Guilderson, T.P., 2017. Stable carbon isotopes (δ13C) of total organic carbon and long-chain n-alkanes as proxies for climate and environmental change in a sediment core from Lake Petén-Itzá, Guatemala. Journal of Paleolimnology 57, 307–319. <a href="https://doi.org/10.1007/s10933-017-9949-z">https://doi.org/10.1007/s10933-017-9949-z</a></p>
+</div>
+<div>
+<p>McCulloch, M.T., De Deckker, P., Chivas, A.R., 1989. Strontium isotope variations in single ostracod valves from the Gulf of Carpentaria, Australia: A palaeoenvironmental indicator. Geochimica et Cosmochimica Acta 53, 1703–1710. <a href="https://doi.org/10.1016/0016-7037(89)90256-1">https://doi.org/10.1016/0016-7037(89)90256-1</a></p>
+</div>
+<div>
+<p>McGowan, H.A., Petherick, L.M., Kamber, B.S., 2008. Aeolian sedimentation and climate variability during the late Quaternary in southeast Queensland, Australia. Palaeogeography, Palaeoclimatology, Palaeoecology 265, 171–181. <a href="https://doi.org/10.1016/j.palaeo.2008.05.011">https://doi.org/10.1016/j.palaeo.2008.05.011</a></p>
+</div>
+<div>
+<p>McLauchlan, K.K., Higuera, P.E., Miesel, J., Rogers, B.M., Schweitzer, J., Shuman, J.K., Tepley, A.J., Varner, J.M., Veblen, T.T., Adalsteinsson, S.A., Balch, J.K., Baker, P., Batllori, E., Bigio, E., Brando, P., Cattau, M., Chipman, M.L., Coen, J., Crandall, R., Daniels, L., Enright, N., Gross, W.S., Harvey, B.J., Hatten, J.A., Hermann, S., Hewitt, R.E., Kobziar, L.N., Landesmann, J.B., Loranty, M.M., Maezumi, S.Y., Mearns, L., Moritz, M., Myers, J.A., Pausas, J.G., Pellegrini, A.F.A., Platt, W.J., Roozeboom, J., Safford, H., Santos, F., Scheller, R.M., Sherriff, R.L., Smith, K.G., Smith, M.D., Watts, A.C., 2020. Fire as a fundamental ecological process: Research advances and frontiers. J Ecol 108, 2047–2069. <a href="https://doi.org/10.1111/1365-2745.13403">https://doi.org/10.1111/1365-2745.13403</a></p>
+</div>
+<div>
+<p>Meredith, W., Ascough, P.L., Bird, M.I., Large, D.J., Snape, C.E., Sun, Y., Tilston, E.L., 2012. Assessment of hydropyrolysis as a method for the quantification of black carbon using standard reference materials. Geochimica et Cosmochimica Acta 97, 131–147. <a href="https://doi.org/10.1016/j.gca.2012.08.037">https://doi.org/10.1016/j.gca.2012.08.037</a></p>
+</div>
+<div>
+<p>Meyers, P.A., Lallier-Vergès, E., 1999. Lacustrine sedimentary organic matter records of Late Quaternary paleoclimates. Journal of Paleolimnology 21, 345–372. <a href="https://doi.org/10.1023/A:1008073732192">https://doi.org/10.1023/A:1008073732192</a></p>
+</div>
+<div>
+<p>Mooney, S.D., Harrison, S.P., Bartlein, P.J., Daniau, A.-L., Stevenson, J., Brownlie, K.C., Buckman, S., Cupper, M., Luly, J., Black, M., Colhoun, E., D’Costa, D., Dodson, J., Haberle, S., Hope, G.S., Kershaw, P., Kenyon, C., McKenzie, M., Williams, N., 2011. Late Quaternary fire regimes of Australasia. Quaternary Science Reviews 30, 28–46. <a href="https://doi.org/10.1016/j.quascirev.2010.10.010">https://doi.org/10.1016/j.quascirev.2010.10.010</a></p>
+</div>
+<div>
+<p>Moser, K.A., Korhola, A., Wekcström, J., Blom, T., Pienitz, R., Smol, J.P., Douglas, M.S.V., Hay, M.B., 2000. Paleohydrology inferred from diatoms in northern latitude regions. Journal of Paleolimnology 24, 93–107. <a href="https://doi.org/10.1023/A:1008173901591">https://doi.org/10.1023/A:1008173901591</a></p>
+</div>
+<div>
+<p>Moss, P.T., Cosgrove, R., Ferrier, Å., Haberle, S.G., 2012. Holocene environments of the sclerophyll woodlands of the Wet Tropics of northeastern Australia, in: HABERLE, S.G., DAVID, B. (Eds.), Peopled Landscapes, Archaeological and Biogeographic Approaches to Landscapes. ANU Press, pp. 329–342.</p>
+</div>
+<div>
+<p>Moss, P.T., Kershaw, A.P., 2007. A late Quaternary marine palynological record (oxygen isotope stages 1 to 7) for the humid tropics of northeastern Australia based on ODP Site 820. Palaeogeography, Palaeoclimatology, Palaeoecology, Environmental History of the Humid Tropics region of north-east Australia 251, 4–22. <a href="https://doi.org/10.1016/j.palaeo.2007.02.014">https://doi.org/10.1016/j.palaeo.2007.02.014</a></p>
+</div>
+<div>
+<p>Moss, P.T., Mackenzie, L., Ulm, S., Sloss, C., Rosendahl, D., Petherick, L., Steinberger, L., Wallis, L., Heijnis, H., Petchey, F., Jacobsen, G., 2015. Environmental context for late Holocene human occupation of the South Wellesley Archipelago, Gulf of Carpentaria, northern Australia. Quaternary International 385, 136–144. <a href="https://doi.org/10.1016/j.quaint.2015.02.051">https://doi.org/10.1016/j.quaint.2015.02.051</a></p>
+</div>
+<div>
+<p>Mueller, N., Lewis, A., Roberts, D., Ring, S., Melrose, R., Sixsmith, J., Lymburner, L., McIntyre, A., Tan, P., Curnow, S., Ip, A., 2016. Water observations from space: Mapping surface water from 25 years of Landsat imagery across Australia. Remote Sensing of Environment 174, 341–352. <a href="https://doi.org/10.1016/j.rse.2015.11.003">https://doi.org/10.1016/j.rse.2015.11.003</a></p>
+</div>
+<div>
+<p>Muller, J., Kylander, M., Wüst, R.A.J., Weiss, D., Martinez-Cortizas, A., LeGrande, A.N., Jennerjahn, T., Behling, H., Anderson, W.T., Jacobson, G., 2008. Possible evidence for wet Heinrich phases in tropical NE Australia: The Lynch’s Crater deposit. Quaternary Science Reviews 27, 468–475. <a href="https://doi.org/10.1016/j.quascirev.2007.11.006">https://doi.org/10.1016/j.quascirev.2007.11.006</a></p>
+</div>
+<div>
+<p>Nanson, G.C., East, T.J., Roberts, R.G., 1993. Quaternary stratigraphy, geochronology and evolution of the Magela Creek catchment in the monsoon tropics of northern Australia. Sedimentary Geology 83, 277–302. <a href="https://doi.org/10.1016/0037-0738(93)90017-Y">https://doi.org/10.1016/0037-0738(93)90017-Y</a></p>
+</div>
+<div>
+<p>Nanson, G.C., Price, D.M., Short, S.A., Young, R.W., Jones, B.G., 1991. Comparative Uranium-Thorium and Thermoluminescence Dating of Weathered Quaternary Alluvium in the Tropics of Northern Australia. Quat. res. 35, 347–366. <a href="https://doi.org/10.1016/0033-5894(91)90050-F">https://doi.org/10.1016/0033-5894(91)90050-F</a></p>
+</div>
+<div>
+<p>Negus, P.M., Barr, C., Tibby, J., McGregor, G.B., Marshall, J., Fluin, J., 2019. Subtle variability in water quality structures tropical diatom assemblages in streams of Cape York Peninsula, Australia. Mar. Freshwater Res. 70, 1358. <a href="https://doi.org/10.1071/MF18478">https://doi.org/10.1071/MF18478</a></p>
+</div>
+<div>
+<p>Neldner, V.J., Clarkson, J.R., CYPLUS, Natural Resources Analysis Program, 1995. Vegetation survey and mapping of Cape York Peninsula. Office of the Co-ordinator General ; Commonwealth Information Services, Brisbane; Canberra.</p>
+</div>
+<div>
+<p>Neulieb, T., 2013. Potential Pitfalls of Pollen Dating. azu_js_rc 55. <a href="https://doi.org/10.2458/azu_js_rc.55.16274">https://doi.org/10.2458/azu_js_rc.55.16274</a></p>
+</div>
+<div>
+<p>Neumann, K., Strömberg, C.A.E., Ball, T., Albert, R.M., Vrydaghs, L., Cummings, L.S., 2019. International Code for Phytolith Nomenclature (ICPN) 2.0. Ann Bot 124, 189–199. <a href="https://doi.org/10.1093/aob/mcz064">https://doi.org/10.1093/aob/mcz064</a></p>
+</div>
+<div>
+<p>Nott, J.F., Bryant, E.A., Price, D., 1999. Early-Holocene aridity in tropical northern Australia. The Holocene 9, 231–236.</p>
+</div>
+<div>
+<p>Nott, J.F., Price, D.M., 1999. Waterfalls, floods and climate change: Evidence from tropical Australia. Earth and Planetary Science Letters 171, 267–276. <a href="https://doi.org/10.1016/S0012-821X(99)00152-1">https://doi.org/10.1016/S0012-821X(99)00152-1</a></p>
+</div>
+<div>
+<p>Nott, J.F., Price, D.M., 1994. Plunge pools and paleoprecipitation. Geology 22, 1047. <a href="https://doi.org/10.1130/0091-7613(1994)022%3C1047:PPAP%3E2.3.CO;2">https://doi.org/10.1130/0091-7613(1994)022&lt;1047:PPAP&gt;2.3.CO;2</a></p>
+</div>
+<div>
+<p>Nott, J.F., Price, D.M., Bryant, E.A., 1996. A 30,000 year record of extreme floods in tropical Australia from relict plunge-pool deposits: Implications for future climate change. Geophysical Research Letters 23, 379–382. <a href="https://doi.org/10.1029/96GL00262">https://doi.org/10.1029/96GL00262</a></p>
+</div>
+<div>
+<p>Orr, T.J., Wurster, C.M., Levchenko, V., Ascough, P.L., Bird, M.I., 2020. Improved pretreatment method for the isolation and decontamination of pyrogenic carbon for radiocarbon dating using hydrogen pyrolysis. Quaternary Geochronology 101124. <a href="https://doi.org/10.1016/j.quageo.2020.101124">https://doi.org/10.1016/j.quageo.2020.101124</a></p>
+</div>
+<div>
+<p>Oswald, W.W., Anderson, P.M., Brown, T.A., Brubaker, L.B., Feng, S.H., Lozhkin, A.V., Tinner, W., Kaltenrieder, P., 2005. Effects of sample mass and macrofossil type on radiocarbon dating of arctic and boreal lake sediments. Holocene 15, 758–767. <a href="https://doi.org/10.1191/0959683605hl849rr">https://doi.org/10.1191/0959683605hl849rr</a></p>
+</div>
+<div>
+<p>Peel, M.C., Finlayson, B.L., McMahon, T.A., 2007. Updated world map of the Köppen-Geiger climate classification. Hydrol. Earth Syst. Sci. 11, 1633–1644. <a href="https://doi.org/10.5194/hess-11-1633-2007">https://doi.org/10.5194/hess-11-1633-2007</a></p>
+</div>
+<div>
+<p>Pessenda, L.R., Gouveia, S.M., Aravena, R., 2001. Radiocarbon dating of total soil organic matter and humin fraction and its comparison with (super 14) C ages of fossil charcoal. Radiocarbon; Vol 43, No 2B (2001).</p>
+</div>
+<div>
+<p>Petherick, L.M., McGowan, H.A., Kamber, B.S., 2009. Reconstructing transport pathways for late Quaternary dust from eastern Australia using the composition of trace elements of long traveled dusts. Geomorphology 105, 67–79. <a href="https://doi.org/10.1016/j.geomorph.2007.12.015">https://doi.org/10.1016/j.geomorph.2007.12.015</a></p>
+</div>
+<div>
+<p>Petherick, L.M., Moss, P.T., McGowan, H.A., 2011. Climatic and environmental variability during the termination of the Last Glacial Stage in coastal eastern Australia: A review. Australian Journal of Earth Sciences 58, 563–577. <a href="https://doi.org/10.1080/08120099.2011.566281">https://doi.org/10.1080/08120099.2011.566281</a></p>
+</div>
+<div>
+<p>Pettitt, P.B., Davies, W., Gamble, C.S., Richards, M.B., 2003. Palaeolithic radiocarbon chronology: Quantifying our confidence beyond two half-lives. Journal of Archaeological Science 30, 1685–1693. <a href="https://doi.org/10.1016/S0305-4403(03)00070-0">https://doi.org/10.1016/S0305-4403(03)00070-0</a></p>
+</div>
+<div>
+<p>Piperno, D.R., Bush, M.B., Colinvaux, P.A., 1991. Paleoecological perspectives on human adaptation in central Panama; II, The Holocene. Geoarchaeology 6, 227–250.</p>
+</div>
+<div>
+<p>Power, M.J., Marlon, J., Ortiz, N., Bartlein, P.J., Harrison, S.P., Mayle, F.E., Ballouche, A., Bradshaw, R.H.W., Carcaillet, C., Cordova, C., Mooney, S., Moreno, P.I., Prentice, I.C., Thonicke, K., Tinner, W., Whitlock, C., Zhang, Y., Zhao, Y., Ali, A.A., Anderson, R.S., Beer, R., Behling, H., Briles, C., Brown, K.J., Brunelle, A., Bush, M., Camill, P., Chu, G.Q., Clark, J., Colombaroli, D., Connor, S., Daniau, A.-L., Daniels, M., Dodson, J., Doughty, E., Edwards, M.E., Finsinger, W., Foster, D., Frechette, J., Gaillard, M.-J., Gavin, D.G., Gobet, E., Haberle, S., Hallett, D.J., Higuera, P., Hope, G., Horn, S., Inoue, J., Kaltenrieder, P., Kennedy, L., Kong, Z.C., Larsen, C., Long, C.J., Lynch, J., Lynch, E.A., McGlone, M., Meeks, S., Mensing, S., Meyer, G., Minckley, T., Mohr, J., Nelson, D.M., New, J., Newnham, R., Noti, R., Oswald, W., Pierce, J., Richard, P.J.H., Rowe, C., Sanchez Goñi, M.F., Shuman, B.N., Takahara, H., Toney, J., Turney, C., Urrego-Sanchez, D.H., Umbanhowar, C., Vandergoes, M., Vanniere, B., Vescovi, E., Walsh, M., Wang, X., Williams, N., Wilmshurst, J., Zhang, J.H., 2008. Changes in fire regimes since the Last Glacial Maximum: An assessment based on a global synthesis and analysis of charcoal data. Clim Dyn 30, 887–907. <a href="https://doi.org/10.1007/s00382-007-0334-x">https://doi.org/10.1007/s00382-007-0334-x</a></p>
+</div>
+<div>
+<p>Prebble, M., Sim, R., Finn, J., Fink, D., 2005. A Holocene pollen and diatom record from Vanderlin Island, Gulf of Carpentaria, lowland tropical Australia. Quaternary Research 64, 357–371. <a href="https://doi.org/10.1016/j.yqres.2005.08.005">https://doi.org/10.1016/j.yqres.2005.08.005</a></p>
+</div>
+<div>
+<p>Proske, U., Haberle, S.G., 2012. Island ecosystem and biodiversity dynamics in northeastern Australia during the Holocene: Unravelling short-term impacts and long-term drivers. The Holocene 22, 1097–1111. <a href="https://doi.org/10.1177/0959683612441840">https://doi.org/10.1177/0959683612441840</a></p>
+</div>
+<div>
+<p>Proske, U., Heslop, D., Haberle, S., 2014. A Holocene record of coastal landscape dynamics in the eastern Kimberley region, Australia. J. Quaternary Sci. 29, 163–174. <a href="https://doi.org/10.1002/jqs.2691">https://doi.org/10.1002/jqs.2691</a></p>
+</div>
+<div>
+<p>Proske, U., Stevenson, J., Seddon, A.W.R., Taffs, K., 2017. Holocene diatom records of wetland development near Weipa, Cape York, Australia. Quaternary International, Environmental and Climatic Changes Inferred from Sedimentary Records on Asian Shelf Margins: Part I 440, 42–54. <a href="https://doi.org/10.1016/j.quaint.2016.09.014">https://doi.org/10.1016/j.quaint.2016.09.014</a></p>
+</div>
+<div>
+<p>Rangelands Fire Information, N.A. &amp;, 2020. Data [WWW Document]. URL <a href="https://www.firenorth.org.au/nafi3/">https://www.firenorth.org.au/nafi3/</a> (accessed 7.25.2020).</p>
+</div>
+<div>
+<p>Rashid, I., Mir, S.H., Zurro, D., Dar, R.A., Reshi, Z.A., 2019. Phytoliths as proxies of the past. Earth-Science Reviews 194, 234–250. <a href="https://doi.org/10.1016/j.earscirev.2019.05.005">https://doi.org/10.1016/j.earscirev.2019.05.005</a></p>
+</div>
+<div>
+<p>Reeves, J.M., Bostock, H.C., Ayliffe, L.K., Barrows, T.T., De Deckker, P., Devriendt, L.S., Dunbar, G.B., Drysdale, R.N., Fitzsimmons, K.E., Gagan, M.K., Griffiths, M.L., Haberle, S.G., Jansen, J.D., Krause, C., Lewis, S., McGregor, H.V., Mooney, S.D., Moss, P.T., Nanson, G.C., Purcell, A., van der Kaars, S., 2013. Palaeoenvironmental change in tropical Australasia over the last 30,000 years – a synthesis by the OZ-INTIMATE group. Quaternary Science Reviews 74, 97–114. <a href="https://doi.org/10.1016/j.quascirev.2012.11.027">https://doi.org/10.1016/j.quascirev.2012.11.027</a></p>
+</div>
+<div>
+<p>Reeves, J.M., Chivas, A.R., Garcia, A., De Deckker, P., 2007. Palaeoenvironmental change in the Gulf of Carpentaria (Australia) since the last interglacial based on Ostracoda. Palaeogeography, Palaeoclimatology, Palaeoecology 246, 163–187. <a href="https://doi.org/10.1016/j.palaeo.2006.09.012">https://doi.org/10.1016/j.palaeo.2006.09.012</a></p>
+</div>
+<div>
+<p>Reeves, J.M., Chivas, A.R., Garcia, A., Holt, S., Couapel, M.J.J., Jones, B.G., Cendón, D.I., Fink, D., 2008. The sedimentary record of palaeoenvironments and sea-level change in the Gulf of Carpentaria, Australia, through the last glacial cycle. Quaternary International 183, 3–22. <a href="https://doi.org/10.1016/j.quaint.2007.11.019">https://doi.org/10.1016/j.quaint.2007.11.019</a></p>
+</div>
+<div>
+<p>Rehn, E., 2020. Fire and Environmental Change in Northern Australian Savannas during the Holocene. James Cook University, Cairns.</p>
+</div>
+<div>
+<p>Reimer, P.J., Bard, E., Bayliss, A., Beck, J.W., Blackwell, P.G., Ramsey, C.B., Buck, C.E., Cheng, H., Edwards, R.L., Friedrich, M., Grootes, P.M., Guilderson, T.P., Haflidason, H., Hajdas, I., Hatté, C., Heaton, T.J., Hoffmann, D.L., Hogg, A.G., Hughen, K.A., Kaiser, K.F., Kromer, B., Manning, S.W., Niu, M., Reimer, R.W., Richards, D.A., Scott, E.M., Southon, J.R., Staff, R.A., Turney, C.S.M., van der Plicht, J., 2013. IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP. Radiocarbon 55, 1869–1887. <a href="https://doi.org/10.2458/azu_js_rc.55.16947">https://doi.org/10.2458/azu_js_rc.55.16947</a></p>
+</div>
+<div>
+<p>Risbey, J.S., Pook, M.J., McIntosh, P.C., Wheeler, M.C., Hendon, H.H., 2009. On the Remote Drivers of Rainfall Variability in Australia. Monthly Weather Review 137, 3233–3253. <a href="https://doi.org/10.1175/2009MWR2861.1">https://doi.org/10.1175/2009MWR2861.1</a></p>
+</div>
+<div>
+<p>Rothwell, R.G., Rack, F.R., 2006. New techniques in sediment core analysis: An introduction. Geological Society, London, Special Publications 267, 1–29. <a href="https://doi.org/10.1144/GSL.SP.2006.267.01.01">https://doi.org/10.1144/GSL.SP.2006.267.01.01</a></p>
+</div>
+<div>
+<p>Rowe, C., 2015. Late Holocene swamp transition in the Torres Strait, northern tropical Australia. Quaternary International 385, 56–68. <a href="https://doi.org/10.1016/j.quaint.2014.07.002">https://doi.org/10.1016/j.quaint.2014.07.002</a></p>
+</div>
+<div>
+<p>Rowe, C., 2007. A palynological investigation of Holocene vegetation change in Torres Strait, seasonal tropics of northern Australia. Palaeogeography, Palaeoclimatology, Palaeoecology 251, 83–103. <a href="https://doi.org/10.1016/j.palaeo.2007.02.019">https://doi.org/10.1016/j.palaeo.2007.02.019</a></p>
+</div>
+<div>
+<p>Rowe, C., Brand, M., Hutley, L.B., Wurster, C., Zwart, C., Levchenko, V., Bird, M., 2019. Holocene savanna dynamics in the seasonal tropics of northern Australia. Review of Palaeobotany and Palynology 267, 17–31. <a href="https://doi.org/10.1016/j.revpalbo.2019.05.004">https://doi.org/10.1016/j.revpalbo.2019.05.004</a></p>
+</div>
+<div>
+<p>Russell-Smith, J., 2016. Fire management business in Australia’s tropical savannas: Lighting the way for a new ecosystem services model for the north? Ecol Manag Restor 17, 4–7. <a href="https://doi.org/10.1111/emr.12201">https://doi.org/10.1111/emr.12201</a></p>
+</div>
+<div>
+<p>Russell-Smith, J., Edwards, A.C., 2006. Seasonality and fire severity in savanna landscapes of monsoonal northern Australia. Int. J. Wildland Fire 15, 541. <a href="https://doi.org/10.1071/WF05111">https://doi.org/10.1071/WF05111</a></p>
+</div>
+<div>
+<p>Russell-Smith, J., Ryan, P.G., Durieu, R., 1997. A LANDSAT MSS-Derived Fire History of Kakadu National Park, Monsoonal Northern Australial, 1980-94: Seasonal Extent, Frequency and Patchiness. The Journal of Applied Ecology 34, 748. <a href="https://doi.org/10.2307/2404920">https://doi.org/10.2307/2404920</a></p>
+</div>
+<div>
+<p>Russell-Smith, J., Yates, C.P., 2007. Australian Savanna Fire Regimes: Context, Scales, Patchiness. fire ecol 3, 48–63. <a href="https://doi.org/10.4996/fireecology.0301048">https://doi.org/10.4996/fireecology.0301048</a></p>
+</div>
+<div>
+<p>Saiz, G., Wynn, J.G., Wurster, C.M., Goodrick, I., Nelson, P.N., Bird, M.I., 2015. Pyrogenic carbon from tropical savanna burning: Production and stable isotope composition. Biogeosciences 12, 1849–1863. <a href="https://doi.org/10.5194/bg-12-1849-2015">https://doi.org/10.5194/bg-12-1849-2015</a></p>
+</div>
+<div>
+<p>Schnurrenberger, D., Russell, J., Kelts, K., 2003. Classification of lacustrine sediments based on sedimentary components. Journal of Paleolimnology 29, 141–154. <a href="https://doi.org/10.1023/A:1023270324800">https://doi.org/10.1023/A:1023270324800</a></p>
+</div>
+<div>
+<p>Shi, L., Gregory, P., Smith, T., Hapuarachchi, P., Feikema, P., Read, A., Reid, P., Dowdy, A., Kuleshov, Y., Hendon, H., Marshall, A., Wang, B., Vaze, J., Gallant, S., Yang, A., Wheeler, M., Hodgson, G., Browning, G., Berthet, A., Petheram, C., Charles, S., 2016. Climate data and their characterisation for hydrological and agricultural scenario modelling across the Fitzroy, Darwin and Mitchell catchments. <a href="https://doi.org/10.25919/5B86ED38D15A6">https://doi.org/10.25919/5B86ED38D15A6</a></p>
+</div>
+<div>
+<p>Shulmeister, J., 1999. Australasian evidence for mid-holocene climate change implies precessional control of Walker Circulation in the Pacific. Quaternary International 57-58, 81–91. <a href="https://doi.org/10.1016/S1040-6182(98)00052-4">https://doi.org/10.1016/S1040-6182(98)00052-4</a></p>
+</div>
+<div>
+<p>Shulmeister, J., 1992. A Holocene Pollen record from Lowland Tropical Australia. The Holocene 2, 107–116. <a href="https://doi.org/10.1177/095968369200200202">https://doi.org/10.1177/095968369200200202</a></p>
+</div>
+<div>
+<p>Shulmeister, J., Lees, B.G., 1995. Pollen evidence from tropical Australia for the onset of an ENSO-dominated climate at c. 4000 BP. The Holocene 5, 10–18. <a href="https://doi.org/10.1177/095968369500500102">https://doi.org/10.1177/095968369500500102</a></p>
+</div>
+<div>
+<p>Shulmeister, J., Lees, B.G., 1992. Morphology and chronostratigraphy of a coastal dunefield; Groote Eylandt, northern Australia. Geomorphology 5, 521–534. <a href="https://doi.org/10.1016/0169-555X(92)90023-H">https://doi.org/10.1016/0169-555X(92)90023-H</a></p>
+</div>
+<div>
+<p>Sloss, C.R., Nothdurft, L., Hua, Q., O’Connor, S.G., Moss, P.T., Rosendahl, D., Petherick, L.M., Nanson, R.A., Mackenzie, L.L., Sternes, A., Jacobsen, G.E., Ulm, S., 2018. Holocene sea-level change and coastal landscape evolution in the southern Gulf of Carpentaria, Australia. The Holocene 28, 1411–1430. <a href="https://doi.org/10.1177/0959683618777070">https://doi.org/10.1177/0959683618777070</a></p>
+</div>
+<div>
+<p>Stevens, N., Lehmann, C.E.R., Murphy, B.P., Durigan, G., 2017. Savanna woody encroachment is widespread across three continents. Glob Change Biol 23, 235–244. <a href="https://doi.org/10.1111/gcb.13409">https://doi.org/10.1111/gcb.13409</a></p>
+</div>
+<div>
+<p>Stevenson, J., Brockwell, S., Rowe, C., Proske, U., Shiner, J., 2015. The palaeo-environmental history of Big Willum Swamp, Weipa: An environmental context for the archaeological record. Australian Archaeology 80, 17–31. <a href="https://doi.org/10.1080/03122417.2015.11682041">https://doi.org/10.1080/03122417.2015.11682041</a></p>
+</div>
+<div>
+<p>Stevenson, J., Dodson, J.R., Prosser, I.P., 2001. A late Quaternary record of environmental change and human impact from New Caledonia. Palaeogeography, Palaeoclimatology, Palaeoecology 168, 97–123. <a href="https://doi.org/10.1016/S0031-0182(00)00251-0">https://doi.org/10.1016/S0031-0182(00)00251-0</a></p>
+</div>
+<div>
+<p>Stoeckl, N., Stanley, O., 2007. Key industries in Australia’s tropical savannas. Australasian Journal of Regional Studies 13, 255–286.</p>
+</div>
+<div>
+<p>Strömberg, C.A.E., Dunn, R.E., Crifò, C., Harris, E.B., 2018. Phytoliths in Paleoecology: Analytical Considerations, Current Use, and Future Directions, in: Croft, D.A., Su, D.F., Simpson, S.W. (Eds.), Methods in Paleoecology: Reconstructing Cenozoic Terrestrial Environments and Ecological Communities, Vertebrate Paleobiology and Paleoanthropology. Springer International Publishing, Cham, pp. 235–287. <a href="https://doi.org/10.1007/978-3-319-94265-0_12">https://doi.org/10.1007/978-3-319-94265-0_12</a></p>
+</div>
+<div>
+<p>Taylor, B., Fujioka, K., et al. (Eds.), 1992. Proceedings of the Ocean Drilling Program, 126 Scientific Results, Proceedings of the Ocean Drilling Program. Ocean Drilling Program. <a href="https://doi.org/10.2973/odp.proc.sr.126.1992">https://doi.org/10.2973/odp.proc.sr.126.1992</a></p>
+</div>
+<div>
+<p>Testé, M., Garnier, A., Limondin-Lozouet, N., Oxlaj, E., Castanet, C., Purdue, L., Lemonnier, E., Dussol, L., Nondédéo, P., 2020. The phytoliths of Naachtun (Petén, Guatemala): Development of a modern reference for the characterization of plant communities in the Maya Tropical Lowlands. Review of Palaeobotany and Palynology 272, 104130. <a href="https://doi.org/10.1016/j.revpalbo.2019.104130">https://doi.org/10.1016/j.revpalbo.2019.104130</a></p>
+</div>
+<div>
+<p>Tibby, J., Haberle, S.G., 2007. A late glacial to present diatom record from Lake Euramoo, wet tropics of Queensland, Australia. Palaeogeography, Palaeoclimatology, Palaeoecology 251, 46–56. <a href="https://doi.org/10.1016/j.palaeo.2007.02.017">https://doi.org/10.1016/j.palaeo.2007.02.017</a></p>
+</div>
+<div>
+<p>Tierney, J.E., Russell, J.M., Huang, Y., 2010. A molecular perspective on Late Quaternary climate and vegetation change in the Lake Tanganyika basin, East Africa. Quaternary Science Reviews 29, 787–800. <a href="https://doi.org/10.1016/j.quascirev.2009.11.030">https://doi.org/10.1016/j.quascirev.2009.11.030</a></p>
+</div>
+<div>
+<p>Torgersen, T., Jones, M.R., Stephens, A.W., Searle, D.E., Ullman, W.J., 1985. Late Quaternary hydrological changes in the Gulf of Carpentaria. Nature 313, 785–787. <a href="https://doi.org/10.1038/313785a0">https://doi.org/10.1038/313785a0</a></p>
+</div>
+<div>
+<p>Turney, C.S.M., Coope, G.R., Harkness, D.D., Lowe, J.J., Walker, M.J.C., 2000. Implications for the Dating of Wisconsinan (Weichselian) Late-Glacial Events of Systematic Radiocarbon Age Differences between Terrestrial Plant Macrofossils from a Site in SW Ireland. Quaternary Research 53, 114–121. <a href="https://doi.org/10.1006/qres.1999.2087">https://doi.org/10.1006/qres.1999.2087</a></p>
+</div>
+<div>
+<p>Turney, C.S.M., Kershaw, A.P., Clemens, S.C., Branch, N., Moss, P.T., Fifield, L.K., 2004. Millennial and orbital variations of El Niño/Southern Oscillation and high-latitude climate in the last glacial period. Nature 428, 306–310. <a href="https://doi.org/10.1038/nature02386">https://doi.org/10.1038/nature02386</a></p>
+</div>
+<div>
+<p>Turney, C.S.M., Kershaw, A.P., James, S., Branch, N., Cowley, J., Fifield, L.K., Jacobsen, G., Moss, P., 2006. Geochemical changes recorded in Lynch’s Crater, Northeastern Australia, over the past 50 ka. Palaeogeography, Palaeoclimatology, Palaeoecology 233, 187–203. <a href="https://doi.org/10.1016/j.palaeo.2005.09.009">https://doi.org/10.1016/j.palaeo.2005.09.009</a></p>
+</div>
+<div>
+<p>van der Kaars, S., De Deckker, P., Gingele, F.X., 2006. A 100 000-year record of annual and seasonal rainfall and temperature for northwestern Australia based on a pollen record obtained offshore. J. Quaternary Sci. 21, 879–889. <a href="https://doi.org/10.1002/jqs.1010">https://doi.org/10.1002/jqs.1010</a></p>
+</div>
+<div>
+<p>van der Plicht, J., Streurman, H.J., van Mourik, J.M., 2019. Radiocarbon dating of soil archives, in: van Mourik, J.M., van der Meer, J. (Eds.), Reading the Soil Archives: Unraveling the Geoecological Code of Palaeosols, Developments in Quaternary Science. Elsevier, Amsterdam, pp. 81–114.</p>
+</div>
+<div>
+<p>Vázquez, G., Roy, P.D., Solis C., B., Smith M., S.M., Blanco M., E., Lozano-Santacruz, R., 2017. Holocene paleohydrology of the Etzatlán-Magdalena basin in western-central Mexico and evaluation of main atmospheric forcings. Palaeogeography, Palaeoclimatology, Palaeoecology. <a href="https://doi.org/10.1016/j.palaeo.2017.08.029">https://doi.org/10.1016/j.palaeo.2017.08.029</a></p>
+</div>
+<div>
+<p>Veenendaal, E.M., Torello-Raventos, M., Miranda, H.S., Sato, N.M., Oliveras, I., van Langevelde, F., Asner, G.P., Lloyd, J., 2018. On the relationship between fire regime and vegetation structure in the tropics. New Phytol 218, 153–166. <a href="https://doi.org/10.1111/nph.14940">https://doi.org/10.1111/nph.14940</a></p>
+</div>
+<div>
+<p>Walker, D., 2007. Holocene sediments of Lake Barrine, north-east Australia, and their implications for the history of lake and catchment environments. Palaeogeography, Palaeoclimatology, Palaeoecology 251, 57–82. <a href="https://doi.org/10.1016/j.palaeo.2007.02.025">https://doi.org/10.1016/j.palaeo.2007.02.025</a></p>
+</div>
+<div>
+<p>Wallis, L., 2003. An overview of leaf phytolith production patterns in selected northwest Australian flora. Review of Palaeobotany and Palynology 125, 201–248. <a href="https://doi.org/10.1016/S0034-6667(03)00003-4">https://doi.org/10.1016/S0034-6667(03)00003-4</a></p>
+</div>
+<div>
+<p>Wallis, L.A., 2001. Environmental history of northwest Australia based on phytolith analysis at Carpenter’s Gap 1. Quaternary International 83-85, 103–117. <a href="https://doi.org/10.1016/S1040-6182(01)00033-7">https://doi.org/10.1016/S1040-6182(01)00033-7</a></p>
+</div>
+<div>
+<p>Wang, Y., Amundson, R., Trumbore, S., 1996. Radiocarbon Dating of Soil Organic Matter. Quaternary Research 45, 282–288. <a href="https://doi.org/10.1006/qres.1996.0029">https://doi.org/10.1006/qres.1996.0029</a></p>
+</div>
+<div>
+<p>Weltje, G.J., Bloemsma, M.R., Tjallingii, R., Heslop, D., Röhl, U., Croudace, I.W., 2015. Prediction of Geochemical Composition from XRF Core Scanner Data: A New Multivariate Approach Including Automatic Selection of Calibration Samples and Quantification of Uncertainties, in: Croudace, I.W., Rothwell, R.G. (Eds.), Micro-XRF Studies of Sediment Cores, Developments in Paleoenvironmental Research. Springer Netherlands, Dordrecht, pp. 507–534. <a href="https://doi.org/10.1007/978-94-017-9849-5_21">https://doi.org/10.1007/978-94-017-9849-5_21</a></p>
+</div>
+<div>
+<p>Wheeler, T., Braun, J. von, 2013. Climate Change Impacts on Global Food Security. Science 341, 508–513. <a href="https://doi.org/10.1126/science.1239402">https://doi.org/10.1126/science.1239402</a></p>
+</div>
+<div>
+<p>Wohlfarth, B., Skog, G., Possnert, G., Holmquist, B., 1998. Pitfalls in the AMS radiocarbon-dating of terrestrial macrofossils. Journal of Quaternary Science 13, 137–145. <a href="https://doi.org/10.1002/(SICI)1099-1417(199803/04)13:2%3C137::AID-JQS352%3E3.0.CO;2-6">https://doi.org/10.1002/(SICI)1099-1417(199803/04)13:2&lt;137::AID-JQS352&gt;3.0.CO;2-6</a></p>
+</div>
+<div>
+<p>Wolfe, B.B., Falcone, M.D., Clogg-Wright, K.P., Mongeon, C.L., Yi, Y., Brock, B.E., Amour, N.A.S., Mark, W.A., Edwards, T.W.D., 2007. Progress in isotope paleohydrology using lake sediment cellulose. Journal of Paleolimnology 37, 221–231. <a href="https://doi.org/10.1007/s10933-006-9015-8">https://doi.org/10.1007/s10933-006-9015-8</a></p>
+</div>
+<div>
+<p>Wolin, J.A., Stone, J.R., 2010. Diatoms as indicators of water-level change in freshwater lakes, in: The Diatoms: Applications for the Environmental and Earth Sciences, Second Edition. pp. 174–185. <a href="https://doi.org/10.1017/CBO9780511763175.010">https://doi.org/10.1017/CBO9780511763175.010</a></p>
+</div>
+<div>
+<p>Wood, R., 2015. From revolution to convention: The past, present and future of radiocarbon dating. Journal of Archaeological Science, Scoping the Future of Archaeological Science: Papers in Honour of Richard Klein 56, 61–72. <a href="https://doi.org/10.1016/j.jas.2015.02.019">https://doi.org/10.1016/j.jas.2015.02.019</a></p>
+</div>
+<div>
+<p>Woodroffe, C.D., Thom, B.G., Chappell, J., 1985. Development of widespread mangrove swamps in mid-Holocene times in northern Australia. Nature 317, 711–713. <a href="https://doi.org/10.1038/317711a0">https://doi.org/10.1038/317711a0</a></p>
+</div>
+<div>
+<p>Wurster, C.M., Lloyd, J., Goodrick, I., Saiz, G., Bird, M.I., 2012. Quantifying the abundance and stable isotope composition of pyrogenic carbon using hydrogen pyrolysis: Quantifying PC isotope composition using hypy. Rapid Communications in Mass Spectrometry 26, 2690–2696. <a href="https://doi.org/10.1002/rcm.6397">https://doi.org/10.1002/rcm.6397</a></p>
+</div>
+<div>
+<p>Wurster, C.M., Rifai, H., Zhou, B., Haig, J., Bird, M.I., 2019. Savanna in equatorial Borneo during the late Pleistocene. Sci Rep 9, 1–7. <a href="https://doi.org/10.1038/s41598-019-42670-4">https://doi.org/10.1038/s41598-019-42670-4</a></p>
+</div>
+<div>
+<p>Wüst, R.A.J., Jacobsen, G.E., van der Gaast, H., Smith, A.M., 2008. Comparison of radiocarbon ages from different organic fractions in tropical peat cores: Insights from Kalimantan, Indonesia. Radiocarbon 50, 359–372. <a href="https://doi.org/10.1017/S0033822200053492">https://doi.org/10.1017/S0033822200053492</a></p>
+</div>
+<div>
+<p>Xiao, J., Chang, Z., Wen, R., Zhai, D., Itoh, S., Lomtatidze, Z., 2009. Holocene weak monsoon intervals indicated by low lake levels at Hulun Lake in the monsoonal margin region of northeastern Inner Mongolia, China. The Holocene 19, 899–908. <a href="https://doi.org/10.1177/0959683609336574">https://doi.org/10.1177/0959683609336574</a></p>
+</div>
+<div>
+<p>Xu, S., Zheng, G., 2003. Variations in radiocarbon ages of various organic fractions in core sediments from Erhai Lake, SW China. Geochemical Journal 37, 135–144. <a href="https://doi.org/10.2343/geochemj.37.135">https://doi.org/10.2343/geochemj.37.135</a></p>
+</div>
+<div>
+<p>Xu, Y., Lai, Z., Li, C., 2019. Sea-level change as the driver for lake formation in the Yangtze Plain – A review. Global and Planetary Change 181, 102980. <a href="https://doi.org/10.1016/j.gloplacha.2019.102980">https://doi.org/10.1016/j.gloplacha.2019.102980</a></p>
+</div>
+<div>
+<p>Yan, M., Wang, B., Liu, J., Zhu, A., Ning, L., Cao, J., 2018. Understanding the Australian Monsoon change during the Last Glacial Maximum with a multi-model ensemble. Clim. Past 14, 2037–2052. <a href="https://doi.org/10.5194/cp-14-2037-2018">https://doi.org/10.5194/cp-14-2037-2018</a></p>
+</div>
+<div>
+<p>Yokoyama, Y., Purcell, A., Lambeck, K., Johnston, P., 2001. Shore-line reconstruction around Australia during the Last Glacial Maximum and Late Glacial Stage. Quaternary International 83-85, 9–18. <a href="https://doi.org/10.1016/S1040-6182(01)00028-3">https://doi.org/10.1016/S1040-6182(01)00028-3</a></p>
+</div>
+</div>
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references hanging-indent">
+<div id="ref-aitkenSciencebasedDatingArchaeology1990">
+<p>Aitken, M.J., 1990. Science-based dating in archaeology, Longman archaeology series. Longman, London ; New York.</p>
+</div>
+<div id="ref-alexRadiocarbonChronologyManot2017">
+<p>Alex, B., Barzilai, O., Hershkovitz, I., Marder, O., Berna, F., Caracuta, V., Abulafia, T., Davis, L., Goder-Goldberger, M., Lavi, R., Mintz, E., Regev, L., Bar-Yosef Mayer, D., Tejero, J.-M., Yeshurun, R., Ayalon, A., Bar-Matthews, M., Yasur, G., Frumkin, A., Latimer, B., Hans, M.G., Boaretto, E., 2017. Radiocarbon chronology of Manot Cave, Israel and Upper Paleolithic dispersals. Sci. Adv. 3, e1701450. <a href="https://doi.org/10.1126/sciadv.1701450">https://doi.org/10.1126/sciadv.1701450</a></p>
+</div>
+<div id="ref-ascoughHydropyrolysisNewTool2009">
+<p>Ascough, P.L., Bird, M.I., Brock, F., Higham, T.F.G., Meredith, W., Snape, C.E., Vane, C.H., 2009. Hydropyrolysis as a new tool for radiocarbon pre-treatment and the quantification of black carbon. Quaternary Geochronology 4, 140–147. <a href="https://doi.org/10.1016/j.quageo.2008.11.001">https://doi.org/10.1016/j.quageo.2008.11.001</a></p>
+</div>
+<div id="ref-ascoughHydropyrolysisImplicationsRadiocarbon2010">
+<p>Ascough, P.L., Bird, M.I., Meredith, W., Wood, R.E., Snape, C.E., Brock, F., Higham, T.F.G., Large, D.J., Apperley, D.C., 2010. Hydropyrolysis: Implications for Radiocarbon Pretreatment and Characterization of Black Carbon. Radiocarbon 52, 1336–1350.</p>
+</div>
+<div id="ref-bennettPollen2002">
+<p>Bennett, K.D., Willis, K.J., 2002. Pollen, in: Smol, J.P., Birks, H.J.B., Last, W.M., Bradley, R.S., Alverson, K. (Eds.), Tracking Environmental Change Using Lake Sediments. Kluwer Academic Publishers, Dordrecht, pp. 5–32. <a href="https://doi.org/10.1007/0-306-47668-1_2">https://doi.org/10.1007/0-306-47668-1_2</a></p>
+</div>
+<div id="ref-birdRadiocarbonDatingOld1999">
+<p>Bird, M.I., Ayliffe, L.K., Fifield, L.K., Turney, C.S.M., Cresswell, R.G., Barrows, T.T., David, B., 1999. Radiocarbon Dating of “Old” Charcoal Using a Wet Oxidation, Stepped-Combustion Procedure. Radiocarbon 41, 127–140. <a href="https://doi.org/10.1017/S0033822200019482">https://doi.org/10.1017/S0033822200019482</a></p>
+</div>
+<div id="ref-birdEfficiencyCharcoalDecontamination2014">
+<p>Bird, M.I., Levchenko, V., Ascough, P.L., Meredith, W., Wurster, C.M., Williams, A., Tilston, E.L., Snape, C.E., Apperley, D.C., 2014. The efficiency of charcoal decontamination for radiocarbon dating by three pre-treatments – ABOX, ABA and hypy. Quaternary Geochronology 22, 25–32. <a href="https://doi.org/10.1016/j.quageo.2014.02.003">https://doi.org/10.1016/j.quageo.2014.02.003</a></p>
+</div>
+<div id="ref-birdRadiocarbonAnalysisEarly2002">
+<p>Bird, M.I., Turney, C.S.M., Fifield, L.K., Jones, R., Ayliffe, L.K., Palmer, A., Cresswell, R., Robertson, S., 2002. Radiocarbon analysis of the early archaeological site of Nauwalabila I, Arnhem Land, Australia: Implications for sample suitability and stratigraphic integrity. Quaternary Science Reviews 21, 1061–1075. <a href="https://doi.org/10.1016/S0277-3791(01)00058-0">https://doi.org/10.1016/S0277-3791(01)00058-0</a></p>
+</div>
+<div id="ref-bjorckHighresolution14CDated1998">
+<p>Björck, S., Bennike, O., Possnert, G., Wohlfarth, B., Digerfeldt, G., 1998. A high-resolution 14C dated sediment sequence from southwest Sweden: Age comparisons between different components of the sediment. Journal of Quaternary Science 13, 85–89.</p>
+</div>
+<div id="ref-blaauwRbaconAgedepthModelling2019">
+<p>Blaauw, M., Christen, J.A., 2019. Rbacon: Age-depth modelling using bayesian statistics.</p>
+</div>
+<div id="ref-bronkramseyRadiocarbonDatingRevolutions2008">
+<p>Bronk Ramsey, C., 2008. Radiocarbon dating: Revolutions in understanding. Archaeometry 50, 249–275. <a href="https://doi.org/10.1111/j.1475-4754.2008.00394.x">https://doi.org/10.1111/j.1475-4754.2008.00394.x</a></p>
+</div>
+<div id="ref-burrowsNewLateQuaternary2016a">
+<p>Burrows, M.A., Heijnis, H., Gadd, P., Haberle, S.G., 2016. A new late Quaternary palaeohydrological record from the humid tropics of northeastern Australia. Palaeogeography, Palaeoclimatology, Palaeoecology 451, 164–182. <a href="https://doi.org/10.1016/j.palaeo.2016.03.003">https://doi.org/10.1016/j.palaeo.2016.03.003</a></p>
+</div>
+<div id="ref-chappellRadiocarbonLimitAustralian1996">
+<p>Chappell, J., Head, J., Magee, J., 1996. Beyond the radiocarbon limit in Australian archaeology and Quaternary research. Antiquity 70, 543–552. <a href="https://doi.org/10.1017/S0003598X00083708">https://doi.org/10.1017/S0003598X00083708</a></p>
+</div>
+<div id="ref-chiuExtendingRadiocarbonCalibration2005">
+<p>Chiu, T.-c., Fairbanks, R.G., Mortlock, R.A., Bloom, A.L., 2005. Extending the radiocarbon calibration beyond 26,000 years before present using fossil corals. Quaternary Science Reviews 24, 1797–1808. <a href="https://doi.org/10.1016/j.quascirev.2005.04.002">https://doi.org/10.1016/j.quascirev.2005.04.002</a></p>
+</div>
+<div id="ref-chivasSealevelEnvironmentalChanges2001">
+<p>Chivas, A.R., Garcia, A., van der Kaars, S., Couapel, M.J.J., Holt, S., Reeves, J.M., Wheeler, D.J., Switzer, A.D., Murray-Wallace, C.V., Banerjee, D., Price, D.M., Wang, S.X., Pearson, G., Edgar, N., Beaufort, L., De Deckker, P., Lawson, E., Cecil, C., 2001. Sea-level and environmental changes since the last interglacial in the Gulf of Carpentaria, Australia: An overview. Quaternary International 83-85, 19–46. <a href="https://doi.org/10.1016/S1040-6182(01)00029-5">https://doi.org/10.1016/S1040-6182(01)00029-5</a></p>
+</div>
+<div id="ref-clymoUpwashDownwashPollen1987">
+<p>Clymo, R.S., Mackay, D., 1987. Upwash and downwash or pollen and spores in the unsaturated surface layer of spahgum-dominated peat. New Phytol 105, 175–183. <a href="https://doi.org/10.1111/j.1469-8137.1987.tb00120.x">https://doi.org/10.1111/j.1469-8137.1987.tb00120.x</a></p>
+</div>
+<div id="ref-cohenPaleolimnologyHistoryEvolution2003">
+<p>Cohen, A.S., 2003. Paleolimnology : The history and evolution of lake systems. Oxford University Press, New York.</p>
+</div>
+<div id="ref-david45610522019">
+<p>David, B., Delannoy, J.-J., Mialanes, J., Clarkson, C., Petchey, F., Geneste, J.-M., Manne, T., Bird, M.I., Barker, B., Richards, T., Chalmin, E., Castets, G., 2019. 45,610–52,160 years of site and landscape occupation at Nawarla Gabarnmang, Arnhem Land plateau (northern Australia). Quaternary Science Reviews 215, 64–85. <a href="https://doi.org/10.1016/j.quascirev.2019.04.027">https://doi.org/10.1016/j.quascirev.2019.04.027</a></p>
+</div>
+<div id="ref-fieldUntanglingGeochronologicalComplexity2018">
+<p>Field, E., Marx, S., Haig, J., May, J.-H., Jacobsen, G., Zawadzki, A., Child, D., Heijnis, H., Hotchkis, M., McGowan, H., Moss, P.T., 2018. Untangling geochronological complexity in organic spring deposits using multiple dating methods. Quaternary Geochronology 43, 50–71. <a href="https://doi.org/10.1016/j.quageo.2017.10.002">https://doi.org/10.1016/j.quageo.2017.10.002</a></p>
+</div>
+<div id="ref-finkANTARESAMSFacility2004">
+<p>Fink, D., Hotchkis, M., Hua, Q., Jacobsen, G., Smith, A.M., Zoppi, U., Child, D., Mifsud, C., van der Gaast, H., Williams, A., Williams, M., 2004. The ANTARES AMS facility at ANSTO. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms 223-224, 109–115. <a href="https://doi.org/10.1016/j.nimb.2004.04.025">https://doi.org/10.1016/j.nimb.2004.04.025</a></p>
+</div>
+<div id="ref-fletcherAMSRadiocarbonDating2017">
+<p>Fletcher, W.J., Zielhofer, C., Mischke, S., Bryant, C., Xu, X., Fink, D., 2017. AMS radiocarbon dating of pollen concentrates in a karstic lake system. Quaternary Geochronology 39, 112–123. <a href="https://doi.org/10.1016/j.quageo.2017.02.006">https://doi.org/10.1016/j.quageo.2017.02.006</a></p>
+</div>
+<div id="ref-gillespieNovelCellulosepreparationMethod2019">
+<p>Gillespie, R., 2019. A novel cellulose-preparation method. Radiocarbon 61, 1–9. <a href="https://doi.org/10.1017/RDC.2018.65">https://doi.org/10.1017/RDC.2018.65</a></p>
+</div>
+<div id="ref-gillespieAMSDatingLate1992">
+<p>Gillespie, R., Hammond, A.P., Goh, K.M., Tonkin, P.J., Lowe, D.C., Sparks, R.J., Wallace, G., 1992. AMS dating of a late Quaternary tephra at Graham’s Terrace, New Zealand. Radiocarbon; Vol 34, No 1 (1992).</p>
+</div>
+<div id="ref-hatteClassicalAcidAlkaliAcidTreatment2001">
+<p>Hatté, C., Morvan, J., Noury, C., Paterne, M., 2001. Is Classical Acid-Alkali-Acid Treatment Responsible for Contamination? An Alternative Proposition. Radiocarbon 43, 177–182. <a href="https://doi.org/10.1017/S003382220003798X">https://doi.org/10.1017/S003382220003798X</a></p>
+</div>
+<div id="ref-highamRadiocarbonDatingCharcoal2009">
+<p>Higham, T.F.G., Barton, H., Turney, C.S.M., Barker, G., Ramsey, C.B., Brock, F., 2009. Radiocarbon dating of charcoal from tropical sequences: Results from the Niah Great Cave, Sarawak, and their broader implications. Journal of Quaternary Science 24, 189–197. <a href="https://doi.org/10.1002/jqs.1197">https://doi.org/10.1002/jqs.1197</a></p>
+</div>
+<div id="ref-highamRadiocarbonDatesOxford2011">
+<p>Higham, T.F.G., Bronk Ramsey, C., Brock, F., Baker, D., Ditchfield, P., 2011. Radiocarbon dates from the Oxford AMS System: Datelist 34. Archaeometry 53, 1067–1084. <a href="https://doi.org/10.1111/j.1475-4754.2010.00574.x">https://doi.org/10.1111/j.1475-4754.2010.00574.x</a></p>
+</div>
+<div id="ref-hoggSHCal13SouthernHemisphere2013">
+<p>Hogg, A.G., Hua, Q., Blackwell, P.G., Niu, M., Buck, C.E., Guilderson, T.P., Heaton, T.J., Palmer, J.G., Reimer, P.J., Reimer, R.W., Turney, C.S.M., Zimmerman, S.R.H., 2013. SHCal13 Southern Hemisphere Calibration, 0–50,000 Years cal BP. Radiocarbon 55, 1889–1903. <a href="https://doi.org/10.2458/azu_js_rc.55.16783">https://doi.org/10.2458/azu_js_rc.55.16783</a></p>
+</div>
+<div id="ref-huaProgressRadiocarbonTarget2001">
+<p>Hua, Q., Jacobsen, G.E., Zoppi, U., Lawson, E.M., Williams, A.A., McGann, M.J., 2001. Progress In Radiocarbon Target Preparation At The Antares Ams Centre. Radiocarbon; Vol 43, No 2A (2001).</p>
+</div>
+<div id="ref-kilianProblematic14CAMSDates2002a">
+<p>Kilian, M.R., van der Plicht, J., van Geel, B., Goslar, T., 2002. Problematic 14C-AMS dates of pollen concentrates from Lake Gosciaz (Poland). Quaternary International 88, 21–26. <a href="https://doi.org/10.1016/S1040-6182(01)00070-2">https://doi.org/10.1016/S1040-6182(01)00070-2</a></p>
+</div>
+<div id="ref-martinRadiocarbonAgesDifferent2019">
+<p>Martin, L., Goff, J., Jacobsen, G., Mooney, S., 2019. The Radiocarbon Ages of Different Organic Components in the Mires of Eastern Australia. Radiocarbon 61, 173–184. <a href="https://doi.org/10.1017/RDC.2018.118">https://doi.org/10.1017/RDC.2018.118</a></p>
+</div>
+<div id="ref-mayEstablishingChronologicalFramework2018">
+<p>May, J.H., Marx, S.K., Reynolds, W., Clark-Balzan, L., Jacobsen, G.E., Preusser, F., 2018. Establishing a chronological framework for a late Quaternary seasonal swamp in the Australian “Top End”. Quaternary Geochronology 47, 81–92. <a href="https://doi.org/10.1016/j.quageo.2018.05.010">https://doi.org/10.1016/j.quageo.2018.05.010</a></p>
+</div>
+<div id="ref-meredithAssessmentHydropyrolysisMethod2012">
+<p>Meredith, W., Ascough, P.L., Bird, M.I., Large, D.J., Snape, C.E., Sun, Y., Tilston, E.L., 2012. Assessment of hydropyrolysis as a method for the quantification of black carbon using standard reference materials. Geochimica et Cosmochimica Acta 97, 131–147. <a href="https://doi.org/10.1016/j.gca.2012.08.037">https://doi.org/10.1016/j.gca.2012.08.037</a></p>
+</div>
+<div id="ref-neuliebPotentialPitfallsPollen2013">
+<p>Neulieb, T., 2013. Potential Pitfalls of Pollen Dating. azu_js_rc 55. <a href="https://doi.org/10.2458/azu_js_rc.55.16274">https://doi.org/10.2458/azu_js_rc.55.16274</a></p>
+</div>
+<div id="ref-oswaldEffectsSampleMass2005">
+<p>Oswald, W.W., Anderson, P.M., Brown, T.A., Brubaker, L.B., Feng, S.H., Lozhkin, A.V., Tinner, W., Kaltenrieder, P., 2005. Effects of sample mass and macrofossil type on radiocarbon dating of arctic and boreal lake sediments. Holocene 15, 758–767. <a href="https://doi.org/10.1191/0959683605hl849rr">https://doi.org/10.1191/0959683605hl849rr</a></p>
+</div>
+<div id="ref-pessendaRadiocarbonDatingTotal2001">
+<p>Pessenda, L.R., Gouveia, S.M., Aravena, R., 2001. Radiocarbon dating of total soil organic matter and humin fraction and its comparison with (super 14) C ages of fossil charcoal. Radiocarbon; Vol 43, No 2B (2001).</p>
+</div>
+<div id="ref-pettittPalaeolithicRadiocarbonChronology2003">
+<p>Pettitt, P.B., Davies, W., Gamble, C.S., Richards, M.B., 2003. Palaeolithic radiocarbon chronology: Quantifying our confidence beyond two half-lives. Journal of Archaeological Science 30, 1685–1693. <a href="https://doi.org/10.1016/S0305-4403(03)00070-0">https://doi.org/10.1016/S0305-4403(03)00070-0</a></p>
+</div>
+<div id="ref-reevesPalaeoenvironmentalChangeTropical2013">
+<p>Reeves, J.M., Bostock, H.C., Ayliffe, L.K., Barrows, T.T., De Deckker, P., Devriendt, L.S., Dunbar, G.B., Drysdale, R.N., Fitzsimmons, K.E., Gagan, M.K., Griffiths, M.L., Haberle, S.G., Jansen, J.D., Krause, C., Lewis, S., McGregor, H.V., Mooney, S.D., Moss, P.T., Nanson, G.C., Purcell, A., van der Kaars, S., 2013. Palaeoenvironmental change in tropical Australasia over the last 30,000 years – a synthesis by the OZ-INTIMATE group. Quaternary Science Reviews 74, 97–114. <a href="https://doi.org/10.1016/j.quascirev.2012.11.027">https://doi.org/10.1016/j.quascirev.2012.11.027</a></p>
+</div>
+<div id="ref-reimerIntCal13Marine13Radiocarbon2013">
+<p>Reimer, P.J., Bard, E., Bayliss, A., Beck, J.W., Blackwell, P.G., Ramsey, C.B., Buck, C.E., Cheng, H., Edwards, R.L., Friedrich, M., Grootes, P.M., Guilderson, T.P., Haflidason, H., Hajdas, I., Hatté, C., Heaton, T.J., Hoffmann, D.L., Hogg, A.G., Hughen, K.A., Kaiser, K.F., Kromer, B., Manning, S.W., Niu, M., Reimer, R.W., Richards, D.A., Scott, E.M., Southon, J.R., Staff, R.A., Turney, C.S.M., van der Plicht, J., 2013. IntCal13 and Marine13 Radiocarbon Age Calibration Curves 0–50,000 Years cal BP. Radiocarbon 55, 1869–1887. <a href="https://doi.org/10.2458/azu_js_rc.55.16947">https://doi.org/10.2458/azu_js_rc.55.16947</a></p>
+</div>
+<div id="ref-slossHoloceneSealevelChange2018a">
+<p>Sloss, C.R., Nothdurft, L., Hua, Q., O’Connor, S.G., Moss, P.T., Rosendahl, D., Petherick, L.M., Nanson, R.A., Mackenzie, L.L., Sternes, A., Jacobsen, G.E., Ulm, S., 2018. Holocene sea-level change and coastal landscape evolution in the southern Gulf of Carpentaria, Australia. The Holocene 28, 1411–1430. <a href="https://doi.org/10.1177/0959683618777070">https://doi.org/10.1177/0959683618777070</a></p>
+</div>
+<div id="ref-turneyImplicationsDatingWisconsinan2000">
+<p>Turney, C.S.M., Coope, G.R., Harkness, D.D., Lowe, J.J., Walker, M.J.C., 2000. Implications for the Dating of Wisconsinan (Weichselian) Late-Glacial Events of Systematic Radiocarbon Age Differences between Terrestrial Plant Macrofossils from a Site in SW Ireland. Quaternary Research 53, 114–121. <a href="https://doi.org/10.1006/qres.1999.2087">https://doi.org/10.1006/qres.1999.2087</a></p>
+</div>
+<div id="ref-turneyGeochemicalChangesRecorded2006a">
+<p>Turney, C.S.M., Kershaw, A.P., James, S., Branch, N., Cowley, J., Fifield, L.K., Jacobsen, G., Moss, P., 2006. Geochemical changes recorded in Lynch’s Crater, Northeastern Australia, over the past 50 ka. Palaeogeography, Palaeoclimatology, Palaeoecology 233, 187–203. <a href="https://doi.org/10.1016/j.palaeo.2005.09.009">https://doi.org/10.1016/j.palaeo.2005.09.009</a></p>
+</div>
+<div id="ref-wangRadiocarbonDatingSoil1996">
+<p>Wang, Y., Amundson, R., Trumbore, S., 1996. Radiocarbon Dating of Soil Organic Matter. Quaternary Research 45, 282–288. <a href="https://doi.org/10.1006/qres.1996.0029">https://doi.org/10.1006/qres.1996.0029</a></p>
+</div>
+<div id="ref-woodRevolutionConventionPresent2015">
+<p>Wood, R., 2015. From revolution to convention: The past, present and future of radiocarbon dating. Journal of Archaeological Science, Scoping the Future of Archaeological Science: Papers in Honour of Richard Klein 56, 61–72. <a href="https://doi.org/10.1016/j.jas.2015.02.019">https://doi.org/10.1016/j.jas.2015.02.019</a></p>
+</div>
+<div id="ref-wustComparisonRadiocarbonAges2008">
+<p>Wüst, R.A.J., Jacobsen, G.E., van der Gaast, H., Smith, A.M., 2008. Comparison of radiocarbon ages from different organic fractions in tropical peat cores: Insights from Kalimantan, Indonesia. Radiocarbon 50, 359–372. <a href="https://doi.org/10.1017/S0033822200053492">https://doi.org/10.1017/S0033822200053492</a></p>
+</div>
+<div id="ref-xuVariationsRadiocarbonAges2003">
+<p>Xu, S., Zheng, G., 2003. Variations in radiocarbon ages of various organic fractions in core sediments from Erhai Lake, SW China. Geochemical Journal 37, 135–144. <a href="https://doi.org/10.2343/geochemj.37.135">https://doi.org/10.2343/geochemj.37.135</a></p>
+</div>
+<div id="ref-xuSealevelChangeDriver2019">
+<p>Xu, Y., Lai, Z., Li, C., 2019. Sea-level change as the driver for lake formation in the Yangtze Plain – A review. Global and Planetary Change 181, 102980. <a href="https://doi.org/10.1016/j.gloplacha.2019.102980">https://doi.org/10.1016/j.gloplacha.2019.102980</a></p>
+</div>
+<div id="ref-yokoyamaShorelineReconstructionAustralia2001">
+<p>Yokoyama, Y., Purcell, A., Lambeck, K., Johnston, P., 2001. Shore-line reconstruction around Australia during the Last Glacial Maximum and Late Glacial Stage. Quaternary International 83-85, 9–18. <a href="https://doi.org/10.1016/S1040-6182(01)00028-3">https://doi.org/10.1016/S1040-6182(01)00028-3</a></p>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="sedimentology-and-stratigraphy.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/USERNAME/REPO/edit/BRANCH/04-radiocarbon-chapter_final.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["_main.pdf", "_main.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>

@@ -1,0 +1,80 @@
+---
+title: "Thesis and chapters outline"
+author: "Mari Rivera"
+date: ""
+output:
+  word_document: default
+  html_document: default
+---
+
+# Chapter 1: Introduction and aims
+
+## 1.1 Geochronology 
+### Research questions
+
+## 1.2 Environmental change
+### Research questions
+
+# Chapter 2: Methods and techniques in tropical lake paleohydrological research (Literature review)
+
+## 2.1 Introduction
+### Physiographic features of the tropics 
+### Importance of the tropics for the global climate system
+
+## 2.2 Trends in the use of proxies and techniques
+### Lake level
+### Precipitation, seasonality changes and hydroclimate
+
+## 2.3 Analyses assisting palaeohydrological determinations
+### Pollen
+### Bulk sediment
+### Magnetic susceptibility
+### Grain size
+
+## 2.4 Challenges and future directions
+
+# Chapter 3: Background and methods
+
+## 3.1 Structure of the thesis (workflow diagram)
+
+## 3.2 General methods
+
+### a. Coring technique
+
+### b. Geochronology
+#### Radiocarbon dating (general theory, challenges, assumptions
+#### Carbon fractions (description of each one)
+#### Pre-treatment (description of each one)
+
+### c. Environmental change and paleohydrology (general description of methods)
+#### Hydrology (diatoms, ITRAX, grain size, carbon and nitrogen isotopes of bulk organic matter)
+#### Fire (Pyrogenic carbon)
+#### Vegetation (Phytoliths, d13C of PyC)
+
+
+## 3.3 Study site
+
+### Climatic/geology context
+### Vegetation 
+### Lake and catchment characteristics
+### Geology
+
+## 3.4 Past climate of tropical northern Australia
+
+### LGM
+### Deglacial
+### Holocene
+
+# Chapter 4. General results
+## Sedimentology (ITRAX, grain size, water content)
+
+
+# Chapter 5. Development of a radiocarbon chronology for Sanamere Lagoon using multiple organic fractions
+
+# Chapter 6. Hydrology, fire and vegetation in northern Australia over the last 30,000 years (still need to find the actual focus of the chapter)
+
+# Chapter 7. General discussion
+
+# Chapter 8. Conclusions
+
+
