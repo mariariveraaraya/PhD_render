@@ -1,6 +1,6 @@
 # PhD thesis
 
-This repo contains source files for my PhD thesis titled, "TMulti-proxy evidence of long-term environmental change in northern Australia’s tropical savannas", at James Cook University. Based on https://github.com/earowang/thesis/tree/master.
+This repo contains source files for my PhD thesis titled, "Multi-proxy evidence of long-term environmental change in northern Australia’s tropical savannas", at James Cook University. Based on https://github.com/earowang/thesis/tree/master.
 
 ## Directories
 
