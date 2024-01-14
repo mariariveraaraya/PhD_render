@@ -9,7 +9,7 @@ This repo contains source files for my PhD thesis titled, "Multi-proxy evidence 
     - data/: Cleaned data used for thesis document.
     - experiments/: Raw data from laboratory analyses.
     - preprocessing/: R code to generate data in data/.
-    - img/: Images made with other tools to illustrate ideas.
+    - Figs/: rendered figures.
     - bib/: Bibliography files.
     - template/: Monash thesis template from robjhydman/MonashThesis.
 
