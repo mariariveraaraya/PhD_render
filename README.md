@@ -6,7 +6,6 @@ This repo contains source files for my PhD thesis titled, "Multi-proxy evidence 
 
     - Rmd/: R Markdown source documents for thesis document.
     - analysis/: R code to reproduce tables, figures and analysis.
-    - data/: Cleaned data used for thesis document.
     - experiments/: Raw data from laboratory analyses.
     - preprocessing/: R code to generate data in data/.
     - Figs/: rendered figures.
